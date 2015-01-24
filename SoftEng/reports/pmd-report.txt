@@ -1,0 +1,1790 @@
+src/SoftEng/Buildings.java:1:	Package name contains upper case characters
+src/SoftEng/Buildings.java:3:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/SoftEng/Buildings.java:17:	Avoid unused imports such as 'javax.swing.border.SoftBevelBorder'
+src/SoftEng/Buildings.java:25:	The class 'Buildings' has a Cyclomatic Complexity of 10 (Highest = 15).
+src/SoftEng/Buildings.java:25:	The class 'Buildings' has a Modified Cyclomatic Complexity of 10 (Highest = 15).
+src/SoftEng/Buildings.java:25:	The class 'Buildings' has a Standard Cyclomatic Complexity of 10 (Highest = 15).
+src/SoftEng/Buildings.java:25:	headerCommentRequirement Required
+src/SoftEng/Buildings.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Buildings.java:27:	Perhaps 'contentPane' could be replaced by a local variable.
+src/SoftEng/Buildings.java:27:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Buildings.java:27:	fieldCommentRequirement Required
+src/SoftEng/Buildings.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Buildings.java:28:	Perhaps 'table' could be replaced by a local variable.
+src/SoftEng/Buildings.java:28:	Private field 'table' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Buildings.java:28:	fieldCommentRequirement Required
+src/SoftEng/Buildings.java:29:	Avoid using redundant field initializer for 'checked'
+src/SoftEng/Buildings.java:29:	Use explicit scoping instead of the default package private level
+src/SoftEng/Buildings.java:29:	fieldCommentRequirement Required
+src/SoftEng/Buildings.java:32:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/SoftEng/Buildings.java:32:	Parameter 'args' is not assigned and could be declared final
+src/SoftEng/Buildings.java:33:	To be compliant to J2EE, a webapp should not use any thread.
+src/SoftEng/Buildings.java:34:	publicMethodCommentRequirement Required
+src/SoftEng/Buildings.java:36:	Local variable 'frame' could be declared final
+src/SoftEng/Buildings.java:38:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Buildings.java:39:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Buildings.java:46:	It is a good practice to call super() in a constructor
+src/SoftEng/Buildings.java:46:	The constructor 'Buildings' has a Cyclomatic Complexity of 15.
+src/SoftEng/Buildings.java:46:	The constructor 'Buildings' has a Modified Cyclomatic Complexity of 15.
+src/SoftEng/Buildings.java:46:	The constructor 'Buildings' has a Standard Cyclomatic Complexity of 15.
+src/SoftEng/Buildings.java:55:	Local variable 'scrollPane' could be declared final
+src/SoftEng/Buildings.java:60:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Buildings.java:60:	Local variable 'columnNames' could be declared final
+src/SoftEng/Buildings.java:60:	Use ArrayList instead of Vector
+src/SoftEng/Buildings.java:61:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Buildings.java:61:	Local variable 'data' could be declared final
+src/SoftEng/Buildings.java:61:	Use ArrayList instead of Vector
+src/SoftEng/Buildings.java:64:	Found 'DD'-anomaly for variable 'conn' (lines '64'-'73').
+src/SoftEng/Buildings.java:64:	Found 'DD'-anomaly for variable 'conn' (lines '64'-'73').
+src/SoftEng/Buildings.java:65:	Found 'DD'-anomaly for variable 'stmt' (lines '65'-'74').
+src/SoftEng/Buildings.java:65:	Found 'DD'-anomaly for variable 'stmt' (lines '65'-'74').
+src/SoftEng/Buildings.java:66:	Avoid variables with short names like rs
+src/SoftEng/Buildings.java:66:	Found 'DD'-anomaly for variable 'rs' (lines '66'-'75').
+src/SoftEng/Buildings.java:66:	Found 'DD'-anomaly for variable 'rs' (lines '66'-'75').
+src/SoftEng/Buildings.java:70:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Buildings.java:71:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Buildings.java:72:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Buildings.java:72:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Buildings.java:76:	Avoid variables with short names like md
+src/SoftEng/Buildings.java:76:	Local variable 'md' could be declared final
+src/SoftEng/Buildings.java:77:	Local variable 'columns' could be declared final
+src/SoftEng/Buildings.java:85:	Avoid instantiating new objects inside loops
+src/SoftEng/Buildings.java:85:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Buildings.java:85:	Local variable 'row' could be declared final
+src/SoftEng/Buildings.java:85:	Use ArrayList instead of Vector
+src/SoftEng/Buildings.java:96:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Buildings.java:98:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Buildings.java:103:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Buildings.java:103:	Avoid using if statements without curly braces
+src/SoftEng/Buildings.java:105:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Buildings.java:105:	Avoid using if statements without curly braces
+src/SoftEng/Buildings.java:107:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Buildings.java:107:	Avoid using if statements without curly braces
+src/SoftEng/Buildings.java:110:	Found 'DU'-anomaly for variable 'model' (lines '110'-'147').
+src/SoftEng/Buildings.java:110:	Found 'DU'-anomaly for variable 'model' (lines '110'-'147').
+src/SoftEng/Buildings.java:110:	Local variable 'model' could be declared final
+src/SoftEng/Buildings.java:112:	Parameter 'column' is not assigned and could be declared final
+src/SoftEng/Buildings.java:112:	publicMethodCommentRequirement Required
+src/SoftEng/Buildings.java:114:	Avoid variables with short names like o
+src/SoftEng/Buildings.java:117:	A method should have only one exit point, and that should be the last statement in the method
+src/SoftEng/Buildings.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Buildings.java:139:	Local variable 'btnExit' could be declared final
+src/SoftEng/Buildings.java:141:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/Buildings.java:141:	publicMethodCommentRequirement Required
+src/SoftEng/Customers.java:1:	Package name contains upper case characters
+src/SoftEng/Customers.java:1:	Possible God class (WMC=47, ATFD=89, TCC=0.0)
+src/SoftEng/Customers.java:3:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/SoftEng/Customers.java:27:	Avoid unused imports such as 'javax.swing.SwingConstants'
+src/SoftEng/Customers.java:34:	The class 'Customers' has a Cyclomatic Complexity of 28 (Highest = 52).
+src/SoftEng/Customers.java:34:	The class 'Customers' has a Modified Cyclomatic Complexity of 24 (Highest = 43).
+src/SoftEng/Customers.java:34:	The class 'Customers' has a Standard Cyclomatic Complexity of 24 (Highest = 43).
+src/SoftEng/Customers.java:34:	headerCommentRequirement Required
+src/SoftEng/Customers.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Customers.java:36:	Perhaps 'contentPane' could be replaced by a local variable.
+src/SoftEng/Customers.java:36:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Customers.java:36:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Customers.java:37:	Private field 'txtFldFName' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Customers.java:37:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Customers.java:38:	Private field 'txtFldSName' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Customers.java:38:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Customers.java:39:	Private field 'txtFldAFM' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Customers.java:39:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Customers.java:40:	Private field 'txtFldTelephone' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Customers.java:40:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Customers.java:41:	Private field 'txtFldAddress' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Customers.java:41:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Customers.java:42:	Private field 'txtFldMobile' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Customers.java:42:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Customers.java:43:	Private field 'txtFldDebit' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Customers.java:43:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Customers.java:44:	Private field 'txtFldAmount' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Customers.java:44:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Customers.java:45:	Perhaps 'table' could be replaced by a local variable.
+src/SoftEng/Customers.java:45:	Private field 'table' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Customers.java:45:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Customers.java:46:	Private field 'txtFldCity' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Customers.java:46:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Customers.java:47:	Private field 'txtFldID' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Customers.java:47:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:48:	Avoid using redundant field initializer for 'checked'
+src/SoftEng/Customers.java:48:	Use explicit scoping instead of the default package private level
+src/SoftEng/Customers.java:48:	fieldCommentRequirement Required
+src/SoftEng/Customers.java:50:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/SoftEng/Customers.java:50:	Parameter 'args' is not assigned and could be declared final
+src/SoftEng/Customers.java:51:	To be compliant to J2EE, a webapp should not use any thread.
+src/SoftEng/Customers.java:52:	publicMethodCommentRequirement Required
+src/SoftEng/Customers.java:54:	Local variable 'frame' could be declared final
+src/SoftEng/Customers.java:56:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Customers.java:57:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:64:	It is a good practice to call super() in a constructor
+src/SoftEng/Customers.java:64:	The constructor 'Customers' has a Cyclomatic Complexity of 52.
+src/SoftEng/Customers.java:64:	The constructor 'Customers' has a Modified Cyclomatic Complexity of 43.
+src/SoftEng/Customers.java:64:	The constructor 'Customers' has a Standard Cyclomatic Complexity of 43.
+src/SoftEng/Customers.java:64:	The constructor with 0 parameters has an NCSS line count of 172
+src/SoftEng/Customers.java:74:	Local variable 'btnExit' could be declared final
+src/SoftEng/Customers.java:77:	Avoid variables with short names like e
+src/SoftEng/Customers.java:77:	Parameter 'e' is not assigned and could be declared final
+src/SoftEng/Customers.java:77:	publicMethodCommentRequirement Required
+src/SoftEng/Customers.java:84:	Local variable 'lblFName' could be declared final
+src/SoftEng/Customers.java:93:	Local variable 'lblSName' could be declared final
+src/SoftEng/Customers.java:102:	Local variable 'lblAFM' could be declared final
+src/SoftEng/Customers.java:111:	Local variable 'lblTelephone' could be declared final
+src/SoftEng/Customers.java:120:	Local variable 'lblAddress' could be declared final
+src/SoftEng/Customers.java:129:	Local variable 'lblMobile' could be declared final
+src/SoftEng/Customers.java:138:	Local variable 'lblDebit' could be declared final
+src/SoftEng/Customers.java:147:	Local variable 'lblAmount' could be declared final
+src/SoftEng/Customers.java:159:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/Customers.java:159:	The method 'actionPerformed' has a Cyclomatic Complexity of 11.
+src/SoftEng/Customers.java:159:	publicMethodCommentRequirement Required
+src/SoftEng/Customers.java:161:	Found 'DD'-anomaly for variable 'connInsert' (lines '161'-'172').
+src/SoftEng/Customers.java:161:	Found 'DD'-anomaly for variable 'connInsert' (lines '161'-'172').
+src/SoftEng/Customers.java:161:	Found 'DD'-anomaly for variable 'connInsert' (lines '161'-'172').
+src/SoftEng/Customers.java:161:	Found 'DD'-anomaly for variable 'connInsert' (lines '161'-'172').
+src/SoftEng/Customers.java:161:	Found 'DD'-anomaly for variable 'connInsert' (lines '161'-'172').
+src/SoftEng/Customers.java:162:	Found 'DD'-anomaly for variable 'stmtInsert' (lines '162'-'173').
+src/SoftEng/Customers.java:162:	Found 'DD'-anomaly for variable 'stmtInsert' (lines '162'-'173').
+src/SoftEng/Customers.java:162:	Found 'DD'-anomaly for variable 'stmtInsert' (lines '162'-'173').
+src/SoftEng/Customers.java:162:	Found 'DD'-anomaly for variable 'stmtInsert' (lines '162'-'173').
+src/SoftEng/Customers.java:162:	Found 'DD'-anomaly for variable 'stmtInsert' (lines '162'-'173').
+src/SoftEng/Customers.java:163:	Local variable 'rsInsert' could be declared final
+src/SoftEng/Customers.java:168:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:168:	The String literal "com.mysql.jdbc.Driver" appears 4 times in this file; the first occurrence is on line 168
+src/SoftEng/Customers.java:169:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Customers.java:169:	The String literal "jdbc:mysql://127.0.0.1:3306/softeng" appears 4 times in this file; the first occurrence is on line 169
+src/SoftEng/Customers.java:170:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Customers.java:170:	The String literal "root" appears 4 times in this file; the first occurrence is on line 170
+src/SoftEng/Customers.java:171:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Customers.java:171:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Customers.java:171:	The String literal "19896" appears 4 times in this file; the first occurrence is on line 171
+src/SoftEng/Customers.java:173:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:176:	Found 'DU'-anomaly for variable 'p_FName' (lines '176'-'459').
+src/SoftEng/Customers.java:176:	Found 'DU'-anomaly for variable 'p_FName' (lines '176'-'459').
+src/SoftEng/Customers.java:176:	Found 'DU'-anomaly for variable 'p_FName' (lines '176'-'459').
+src/SoftEng/Customers.java:176:	Found 'DU'-anomaly for variable 'p_FName' (lines '176'-'459').
+src/SoftEng/Customers.java:176:	Found 'DU'-anomaly for variable 'p_FName' (lines '176'-'459').
+src/SoftEng/Customers.java:176:	Local variable 'p_FName' could be declared final
+src/SoftEng/Customers.java:176:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_FName' is not final.
+src/SoftEng/Customers.java:177:	Found 'DU'-anomaly for variable 'p_SName' (lines '177'-'459').
+src/SoftEng/Customers.java:177:	Found 'DU'-anomaly for variable 'p_SName' (lines '177'-'459').
+src/SoftEng/Customers.java:177:	Found 'DU'-anomaly for variable 'p_SName' (lines '177'-'459').
+src/SoftEng/Customers.java:177:	Found 'DU'-anomaly for variable 'p_SName' (lines '177'-'459').
+src/SoftEng/Customers.java:177:	Found 'DU'-anomaly for variable 'p_SName' (lines '177'-'459').
+src/SoftEng/Customers.java:177:	Local variable 'p_SName' could be declared final
+src/SoftEng/Customers.java:177:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_SName' is not final.
+src/SoftEng/Customers.java:178:	Found 'DU'-anomaly for variable 'p_AFM' (lines '178'-'459').
+src/SoftEng/Customers.java:178:	Found 'DU'-anomaly for variable 'p_AFM' (lines '178'-'459').
+src/SoftEng/Customers.java:178:	Found 'DU'-anomaly for variable 'p_AFM' (lines '178'-'459').
+src/SoftEng/Customers.java:178:	Found 'DU'-anomaly for variable 'p_AFM' (lines '178'-'459').
+src/SoftEng/Customers.java:178:	Found 'DU'-anomaly for variable 'p_AFM' (lines '178'-'459').
+src/SoftEng/Customers.java:178:	Local variable 'p_AFM' could be declared final
+src/SoftEng/Customers.java:178:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_AFM' is not final.
+src/SoftEng/Customers.java:179:	Found 'DU'-anomaly for variable 'p_Telephone' (lines '179'-'459').
+src/SoftEng/Customers.java:179:	Found 'DU'-anomaly for variable 'p_Telephone' (lines '179'-'459').
+src/SoftEng/Customers.java:179:	Found 'DU'-anomaly for variable 'p_Telephone' (lines '179'-'459').
+src/SoftEng/Customers.java:179:	Found 'DU'-anomaly for variable 'p_Telephone' (lines '179'-'459').
+src/SoftEng/Customers.java:179:	Found 'DU'-anomaly for variable 'p_Telephone' (lines '179'-'459').
+src/SoftEng/Customers.java:179:	Local variable 'p_Telephone' could be declared final
+src/SoftEng/Customers.java:179:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Telephone' is not final.
+src/SoftEng/Customers.java:180:	Found 'DU'-anomaly for variable 'p_Address' (lines '180'-'459').
+src/SoftEng/Customers.java:180:	Found 'DU'-anomaly for variable 'p_Address' (lines '180'-'459').
+src/SoftEng/Customers.java:180:	Found 'DU'-anomaly for variable 'p_Address' (lines '180'-'459').
+src/SoftEng/Customers.java:180:	Found 'DU'-anomaly for variable 'p_Address' (lines '180'-'459').
+src/SoftEng/Customers.java:180:	Found 'DU'-anomaly for variable 'p_Address' (lines '180'-'459').
+src/SoftEng/Customers.java:180:	Local variable 'p_Address' could be declared final
+src/SoftEng/Customers.java:180:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Address' is not final.
+src/SoftEng/Customers.java:181:	Found 'DU'-anomaly for variable 'p_Mobile' (lines '181'-'459').
+src/SoftEng/Customers.java:181:	Found 'DU'-anomaly for variable 'p_Mobile' (lines '181'-'459').
+src/SoftEng/Customers.java:181:	Found 'DU'-anomaly for variable 'p_Mobile' (lines '181'-'459').
+src/SoftEng/Customers.java:181:	Found 'DU'-anomaly for variable 'p_Mobile' (lines '181'-'459').
+src/SoftEng/Customers.java:181:	Found 'DU'-anomaly for variable 'p_Mobile' (lines '181'-'459').
+src/SoftEng/Customers.java:181:	Local variable 'p_Mobile' could be declared final
+src/SoftEng/Customers.java:181:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Mobile' is not final.
+src/SoftEng/Customers.java:182:	Found 'DU'-anomaly for variable 'p_Debit' (lines '182'-'459').
+src/SoftEng/Customers.java:182:	Found 'DU'-anomaly for variable 'p_Debit' (lines '182'-'459').
+src/SoftEng/Customers.java:182:	Found 'DU'-anomaly for variable 'p_Debit' (lines '182'-'459').
+src/SoftEng/Customers.java:182:	Found 'DU'-anomaly for variable 'p_Debit' (lines '182'-'459').
+src/SoftEng/Customers.java:182:	Found 'DU'-anomaly for variable 'p_Debit' (lines '182'-'459').
+src/SoftEng/Customers.java:182:	Local variable 'p_Debit' could be declared final
+src/SoftEng/Customers.java:182:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Debit' is not final.
+src/SoftEng/Customers.java:183:	Found 'DU'-anomaly for variable 'p_Amount' (lines '183'-'459').
+src/SoftEng/Customers.java:183:	Found 'DU'-anomaly for variable 'p_Amount' (lines '183'-'459').
+src/SoftEng/Customers.java:183:	Found 'DU'-anomaly for variable 'p_Amount' (lines '183'-'459').
+src/SoftEng/Customers.java:183:	Found 'DU'-anomaly for variable 'p_Amount' (lines '183'-'459').
+src/SoftEng/Customers.java:183:	Found 'DU'-anomaly for variable 'p_Amount' (lines '183'-'459').
+src/SoftEng/Customers.java:183:	Local variable 'p_Amount' could be declared final
+src/SoftEng/Customers.java:183:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Amount' is not final.
+src/SoftEng/Customers.java:185:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:185:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:185:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:191:	Local variable 'insert' could be declared final
+src/SoftEng/Customers.java:191:	The String literal "','" appears 7 times in this file; the first occurrence is on line 191
+src/SoftEng/Customers.java:192:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:193:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:198:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Customers.java:200:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:200:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:205:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:205:	Avoid using if statements without curly braces
+src/SoftEng/Customers.java:205:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:205:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:207:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:207:	Avoid using if statements without curly braces
+src/SoftEng/Customers.java:207:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:207:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:209:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:209:	Avoid using if statements without curly braces
+src/SoftEng/Customers.java:209:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:209:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:215:	Local variable 'btnClear' could be declared final
+src/SoftEng/Customers.java:219:	Local variable 'scrollPane' could be declared final
+src/SoftEng/Customers.java:224:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Customers.java:224:	Local variable 'columnNames' could be declared final
+src/SoftEng/Customers.java:224:	Use ArrayList instead of Vector
+src/SoftEng/Customers.java:225:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Customers.java:225:	Local variable 'data' could be declared final
+src/SoftEng/Customers.java:225:	Use ArrayList instead of Vector
+src/SoftEng/Customers.java:226:	Found 'DD'-anomaly for variable 'conn' (lines '226'-'235').
+src/SoftEng/Customers.java:226:	Found 'DD'-anomaly for variable 'conn' (lines '226'-'235').
+src/SoftEng/Customers.java:226:	Found 'DD'-anomaly for variable 'conn' (lines '226'-'235').
+src/SoftEng/Customers.java:226:	Found 'DD'-anomaly for variable 'conn' (lines '226'-'235').
+src/SoftEng/Customers.java:226:	Found 'DD'-anomaly for variable 'conn' (lines '226'-'235').
+src/SoftEng/Customers.java:227:	Found 'DD'-anomaly for variable 'stmt' (lines '227'-'236').
+src/SoftEng/Customers.java:227:	Found 'DD'-anomaly for variable 'stmt' (lines '227'-'236').
+src/SoftEng/Customers.java:227:	Found 'DD'-anomaly for variable 'stmt' (lines '227'-'236').
+src/SoftEng/Customers.java:227:	Found 'DD'-anomaly for variable 'stmt' (lines '227'-'236').
+src/SoftEng/Customers.java:227:	Found 'DD'-anomaly for variable 'stmt' (lines '227'-'236').
+src/SoftEng/Customers.java:228:	Avoid variables with short names like rs
+src/SoftEng/Customers.java:228:	Found 'DD'-anomaly for variable 'rs' (lines '228'-'237').
+src/SoftEng/Customers.java:228:	Found 'DD'-anomaly for variable 'rs' (lines '228'-'237').
+src/SoftEng/Customers.java:228:	Found 'DD'-anomaly for variable 'rs' (lines '228'-'237').
+src/SoftEng/Customers.java:228:	Found 'DD'-anomaly for variable 'rs' (lines '228'-'237').
+src/SoftEng/Customers.java:228:	Found 'DD'-anomaly for variable 'rs' (lines '228'-'237').
+src/SoftEng/Customers.java:232:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Customers.java:233:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Customers.java:234:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Customers.java:234:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Customers.java:238:	Avoid variables with short names like md
+src/SoftEng/Customers.java:238:	Local variable 'md' could be declared final
+src/SoftEng/Customers.java:239:	Local variable 'columns' could be declared final
+src/SoftEng/Customers.java:247:	Avoid instantiating new objects inside loops
+src/SoftEng/Customers.java:247:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Customers.java:247:	Local variable 'row' could be declared final
+src/SoftEng/Customers.java:247:	Use ArrayList instead of Vector
+src/SoftEng/Customers.java:257:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Customers.java:259:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:264:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:264:	Avoid using if statements without curly braces
+src/SoftEng/Customers.java:266:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:266:	Avoid using if statements without curly braces
+src/SoftEng/Customers.java:268:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:268:	Avoid using if statements without curly braces
+src/SoftEng/Customers.java:271:	Found 'DU'-anomaly for variable 'tablecustomers' (lines '271'-'459').
+src/SoftEng/Customers.java:271:	Found 'DU'-anomaly for variable 'tablecustomers' (lines '271'-'459').
+src/SoftEng/Customers.java:271:	Found 'DU'-anomaly for variable 'tablecustomers' (lines '271'-'459').
+src/SoftEng/Customers.java:271:	Found 'DU'-anomaly for variable 'tablecustomers' (lines '271'-'459').
+src/SoftEng/Customers.java:271:	Found 'DU'-anomaly for variable 'tablecustomers' (lines '271'-'459').
+src/SoftEng/Customers.java:271:	Local variable 'tablecustomers' could be declared final
+src/SoftEng/Customers.java:273:	Parameter 'column' is not assigned and could be declared final
+src/SoftEng/Customers.java:273:	publicMethodCommentRequirement Required
+src/SoftEng/Customers.java:275:	Avoid variables with short names like o
+src/SoftEng/Customers.java:278:	A method should have only one exit point, and that should be the last statement in the method
+src/SoftEng/Customers.java:278:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:299:	Comment is too large: Line too long
+src/SoftEng/Customers.java:312:	Local variable 'lblCity' could be declared final
+src/SoftEng/Customers.java:321:	Local variable 'label' could be declared final
+src/SoftEng/Customers.java:326:	Local variable 'lblID' could be declared final
+src/SoftEng/Customers.java:335:	Local variable 'btnSearch' could be declared final
+src/SoftEng/Customers.java:337:	Avoid variables with short names like s
+src/SoftEng/Customers.java:337:	Parameter 's' is not assigned and could be declared final
+src/SoftEng/Customers.java:337:	The method 'actionPerformed' has a Cyclomatic Complexity of 10.
+src/SoftEng/Customers.java:337:	The method 'actionPerformed' has a Modified Cyclomatic Complexity of 10.
+src/SoftEng/Customers.java:337:	The method 'actionPerformed' has a Standard Cyclomatic Complexity of 10.
+src/SoftEng/Customers.java:337:	publicMethodCommentRequirement Required
+src/SoftEng/Customers.java:341:	Local variable 'Srch_ID' could be declared final
+src/SoftEng/Customers.java:341:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Srch_ID' is not final.
+src/SoftEng/Customers.java:341:	Variables should start with a lowercase character, 'Srch_ID' starts with uppercase character.
+src/SoftEng/Customers.java:344:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:345:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Customers.java:346:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Customers.java:347:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Customers.java:347:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Customers.java:349:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:350:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:352:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:353:	Local variable 'dbuserID' could be declared final
+src/SoftEng/Customers.java:353:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:355:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:356:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:357:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:358:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:359:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:360:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:361:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:362:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:363:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:364:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:369:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Customers.java:370:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:370:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:373:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:373:	Avoid using if statements without curly braces
+src/SoftEng/Customers.java:373:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:373:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:375:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:375:	Avoid using if statements without curly braces
+src/SoftEng/Customers.java:375:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:375:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:377:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:377:	Avoid using if statements without curly braces
+src/SoftEng/Customers.java:377:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:377:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:384:	Local variable 'btnSave' could be declared final
+src/SoftEng/Customers.java:386:	Avoid variables with short names like sv
+src/SoftEng/Customers.java:386:	Parameter 'sv' is not assigned and could be declared final
+src/SoftEng/Customers.java:386:	The method 'actionPerformed' has a Cyclomatic Complexity of 16.
+src/SoftEng/Customers.java:386:	publicMethodCommentRequirement Required
+src/SoftEng/Customers.java:390:	Local variable 'rsSave' could be declared final
+src/SoftEng/Customers.java:394:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:395:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Customers.java:396:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Customers.java:397:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Customers.java:397:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Customers.java:399:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:401:	Local variable 'p_id' could be declared final
+src/SoftEng/Customers.java:401:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_id' is not final.
+src/SoftEng/Customers.java:402:	Local variable 'p_SName' could be declared final
+src/SoftEng/Customers.java:402:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_SName' is not final.
+src/SoftEng/Customers.java:403:	Local variable 'p_FName' could be declared final
+src/SoftEng/Customers.java:403:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_FName' is not final.
+src/SoftEng/Customers.java:404:	Local variable 'p_AFM' could be declared final
+src/SoftEng/Customers.java:404:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_AFM' is not final.
+src/SoftEng/Customers.java:405:	Local variable 'p_Telephone' could be declared final
+src/SoftEng/Customers.java:405:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Telephone' is not final.
+src/SoftEng/Customers.java:406:	Local variable 'p_Mobile' could be declared final
+src/SoftEng/Customers.java:406:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Mobile' is not final.
+src/SoftEng/Customers.java:407:	Local variable 'p_Debit' could be declared final
+src/SoftEng/Customers.java:407:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Debit' is not final.
+src/SoftEng/Customers.java:408:	Local variable 'p_Amount' could be declared final
+src/SoftEng/Customers.java:408:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Amount' is not final.
+src/SoftEng/Customers.java:409:	Local variable 'p_Address' could be declared final
+src/SoftEng/Customers.java:409:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Address' is not final.
+src/SoftEng/Customers.java:410:	Local variable 'p_City' could be declared final
+src/SoftEng/Customers.java:410:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_City' is not final.
+src/SoftEng/Customers.java:413:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:413:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:413:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:413:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:413:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:413:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:413:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:413:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Customers.java:419:	Local variable 'update_sname' could be declared final
+src/SoftEng/Customers.java:419:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_sname' is not final.
+src/SoftEng/Customers.java:419:	The String literal " ' " appears 9 times in this file; the first occurrence is on line 419
+src/SoftEng/Customers.java:419:	The String literal "' where id = '" appears 9 times in this file; the first occurrence is on line 419
+src/SoftEng/Customers.java:420:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:421:	Local variable 'update_fname' could be declared final
+src/SoftEng/Customers.java:421:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_fname' is not final.
+src/SoftEng/Customers.java:422:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:423:	Local variable 'update_afm' could be declared final
+src/SoftEng/Customers.java:423:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_afm' is not final.
+src/SoftEng/Customers.java:424:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:425:	Local variable 'update_telephone' could be declared final
+src/SoftEng/Customers.java:425:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_telephone' is not final.
+src/SoftEng/Customers.java:426:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:427:	Local variable 'update_mobile' could be declared final
+src/SoftEng/Customers.java:427:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_mobile' is not final.
+src/SoftEng/Customers.java:428:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:429:	Local variable 'update_debit' could be declared final
+src/SoftEng/Customers.java:429:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_debit' is not final.
+src/SoftEng/Customers.java:430:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:431:	Local variable 'update_amount' could be declared final
+src/SoftEng/Customers.java:431:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_amount' is not final.
+src/SoftEng/Customers.java:432:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:433:	Local variable 'update_address' could be declared final
+src/SoftEng/Customers.java:433:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_address' is not final.
+src/SoftEng/Customers.java:434:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:435:	Local variable 'update_city' could be declared final
+src/SoftEng/Customers.java:435:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_city' is not final.
+src/SoftEng/Customers.java:436:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:437:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:442:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Customers.java:444:	System.out.println is used
+src/SoftEng/Customers.java:445:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:445:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:449:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:449:	Avoid using if statements without curly braces
+src/SoftEng/Customers.java:449:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:449:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:451:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:451:	Avoid using if statements without curly braces
+src/SoftEng/Customers.java:451:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:451:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:453:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Customers.java:453:	Avoid using if statements without curly braces
+src/SoftEng/Customers.java:453:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Customers.java:453:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/EmployeeStore.java:1:	Package name contains upper case characters
+src/SoftEng/EmployeeStore.java:3:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/SoftEng/EmployeeStore.java:10:	Avoid unused imports such as 'java.sql.Connection'
+src/SoftEng/EmployeeStore.java:11:	Avoid unused imports such as 'java.sql.DriverManager'
+src/SoftEng/EmployeeStore.java:12:	Avoid unused imports such as 'java.sql.ResultSet'
+src/SoftEng/EmployeeStore.java:13:	Avoid unused imports such as 'java.sql.ResultSetMetaData'
+src/SoftEng/EmployeeStore.java:14:	Avoid unused imports such as 'java.sql.SQLException'
+src/SoftEng/EmployeeStore.java:15:	Avoid unused imports such as 'java.sql.Statement'
+src/SoftEng/EmployeeStore.java:16:	Avoid unused imports such as 'java.util.Vector'
+src/SoftEng/EmployeeStore.java:23:	Avoid unused imports such as 'javax.swing.JScrollPane'
+src/SoftEng/EmployeeStore.java:26:	Avoid unused imports such as 'javax.swing.table.AbstractTableModel'
+src/SoftEng/EmployeeStore.java:27:	Avoid unused imports such as 'javax.swing.table.DefaultTableModel'
+src/SoftEng/EmployeeStore.java:28:	Avoid unused imports such as 'javax.swing.table.TableModel'
+src/SoftEng/EmployeeStore.java:33:	headerCommentRequirement Required
+src/SoftEng/EmployeeStore.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/EmployeeStore.java:35:	Perhaps 'contentPane' could be replaced by a local variable.
+src/SoftEng/EmployeeStore.java:35:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/EmployeeStore.java:35:	fieldCommentRequirement Required
+src/SoftEng/EmployeeStore.java:36:	Avoid unused private fields such as 'table'.
+src/SoftEng/EmployeeStore.java:36:	fieldCommentRequirement Required
+src/SoftEng/EmployeeStore.java:37:	Avoid using redundant field initializer for 'checked'
+src/SoftEng/EmployeeStore.java:37:	Use explicit scoping instead of the default package private level
+src/SoftEng/EmployeeStore.java:37:	fieldCommentRequirement Required
+src/SoftEng/EmployeeStore.java:40:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/SoftEng/EmployeeStore.java:40:	Parameter 'args' is not assigned and could be declared final
+src/SoftEng/EmployeeStore.java:41:	To be compliant to J2EE, a webapp should not use any thread.
+src/SoftEng/EmployeeStore.java:42:	publicMethodCommentRequirement Required
+src/SoftEng/EmployeeStore.java:44:	Local variable 'frame' could be declared final
+src/SoftEng/EmployeeStore.java:46:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/EmployeeStore.java:47:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/EmployeeStore.java:54:	It is a good practice to call super() in a constructor
+src/SoftEng/EmployeeStore.java:61:	Local variable 'ExitButton' could be declared final
+src/SoftEng/EmployeeStore.java:61:	Variables should start with a lowercase character, 'ExitButton' starts with uppercase character.
+src/SoftEng/EmployeeStore.java:66:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/EmployeeStore.java:66:	publicMethodCommentRequirement Required
+src/SoftEng/EmployeeStore.java:67:	System.exit() should not be used in J2EE/JEE apps
+src/SoftEng/EmployeeStore.java:75:	Local variable 'LogoutButton' could be declared final
+src/SoftEng/EmployeeStore.java:75:	Variables should start with a lowercase character, 'LogoutButton' starts with uppercase character.
+src/SoftEng/EmployeeStore.java:81:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/EmployeeStore.java:81:	publicMethodCommentRequirement Required
+src/SoftEng/EmployeeStore.java:90:	Local variable 'menuBar' could be declared final
+src/SoftEng/EmployeeStore.java:94:	Local variable 'btnManageProd' could be declared final
+src/SoftEng/EmployeeStore.java:97:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/EmployeeStore.java:97:	publicMethodCommentRequirement Required
+src/SoftEng/EmployeeStore.java:103:	Local variable 'btnCustomers' could be declared final
+src/SoftEng/EmployeeStore.java:105:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/EmployeeStore.java:105:	publicMethodCommentRequirement Required
+src/SoftEng/EmployeeStore.java:111:	Local variable 'lblEditor' could be declared final
+src/SoftEng/Stock.java:1:	Package name contains upper case characters
+src/SoftEng/Stock.java:3:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/SoftEng/Stock.java:36:	The class 'Stock' has a Cyclomatic Complexity of 15 (Highest = 26).
+src/SoftEng/Stock.java:36:	The class 'Stock' has a Modified Cyclomatic Complexity of 15 (Highest = 26).
+src/SoftEng/Stock.java:36:	The class 'Stock' has a Standard Cyclomatic Complexity of 15 (Highest = 26).
+src/SoftEng/Stock.java:36:	headerCommentRequirement Required
+src/SoftEng/Stock.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Stock.java:38:	Perhaps 'contentPane' could be replaced by a local variable.
+src/SoftEng/Stock.java:38:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Stock.java:38:	fieldCommentRequirement Required
+src/SoftEng/Stock.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Stock.java:39:	Perhaps 'table' could be replaced by a local variable.
+src/SoftEng/Stock.java:39:	Private field 'table' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Stock.java:39:	fieldCommentRequirement Required
+src/SoftEng/Stock.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Stock.java:40:	Private field 'txtFldSerial' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Stock.java:40:	fieldCommentRequirement Required
+src/SoftEng/Stock.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Stock.java:41:	Private field 'txtFldCount' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Stock.java:41:	fieldCommentRequirement Required
+src/SoftEng/Stock.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Stock.java:42:	Private field 'txtFldID' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Stock.java:42:	fieldCommentRequirement Required
+src/SoftEng/Stock.java:43:	Avoid unused private fields such as 'table_1'.
+src/SoftEng/Stock.java:43:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'table_1' is not final.
+src/SoftEng/Stock.java:43:	fieldCommentRequirement Required
+src/SoftEng/Stock.java:44:	Avoid using redundant field initializer for 'checked'
+src/SoftEng/Stock.java:44:	Use explicit scoping instead of the default package private level
+src/SoftEng/Stock.java:44:	fieldCommentRequirement Required
+src/SoftEng/Stock.java:48:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/SoftEng/Stock.java:48:	Parameter 'args' is not assigned and could be declared final
+src/SoftEng/Stock.java:49:	To be compliant to J2EE, a webapp should not use any thread.
+src/SoftEng/Stock.java:50:	publicMethodCommentRequirement Required
+src/SoftEng/Stock.java:52:	Local variable 'frame' could be declared final
+src/SoftEng/Stock.java:54:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Stock.java:55:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Stock.java:62:	It is a good practice to call super() in a constructor
+src/SoftEng/Stock.java:62:	The constructor 'Stock' has a Cyclomatic Complexity of 26.
+src/SoftEng/Stock.java:62:	The constructor 'Stock' has a Modified Cyclomatic Complexity of 26.
+src/SoftEng/Stock.java:62:	The constructor 'Stock' has a Standard Cyclomatic Complexity of 26.
+src/SoftEng/Stock.java:62:	The constructor with 0 parameters has an NCSS line count of 116
+src/SoftEng/Stock.java:74:	Local variable 'label' could be declared final
+src/SoftEng/Stock.java:75:	The String literal "Tahoma" appears 4 times in this file; the first occurrence is on line 75
+src/SoftEng/Stock.java:79:	Local variable 'lblSerialNumber' could be declared final
+src/SoftEng/Stock.java:89:	Local variable 'btnExit' could be declared final
+src/SoftEng/Stock.java:91:	Avoid variables with short names like e
+src/SoftEng/Stock.java:91:	Parameter 'e' is not assigned and could be declared final
+src/SoftEng/Stock.java:91:	publicMethodCommentRequirement Required
+src/SoftEng/Stock.java:100:	Avoid variables with short names like s
+src/SoftEng/Stock.java:100:	Parameter 's' is not assigned and could be declared final
+src/SoftEng/Stock.java:100:	The method 'actionPerformed' has a Cyclomatic Complexity of 11.
+src/SoftEng/Stock.java:100:	The method 'actionPerformed' has a Modified Cyclomatic Complexity of 11.
+src/SoftEng/Stock.java:100:	The method 'actionPerformed' has a Standard Cyclomatic Complexity of 11.
+src/SoftEng/Stock.java:100:	publicMethodCommentRequirement Required
+src/SoftEng/Stock.java:101:	Found 'DD'-anomaly for variable 'connSrch' (lines '101'-'111').
+src/SoftEng/Stock.java:101:	Found 'DD'-anomaly for variable 'connSrch' (lines '101'-'111').
+src/SoftEng/Stock.java:101:	Found 'DD'-anomaly for variable 'connSrch' (lines '101'-'111').
+src/SoftEng/Stock.java:102:	Found 'DD'-anomaly for variable 'stmtSrch' (lines '102'-'112').
+src/SoftEng/Stock.java:102:	Found 'DD'-anomaly for variable 'stmtSrch' (lines '102'-'112').
+src/SoftEng/Stock.java:102:	Found 'DD'-anomaly for variable 'stmtSrch' (lines '102'-'112').
+src/SoftEng/Stock.java:103:	Found 'DD'-anomaly for variable 'rsSrch' (lines '103'-'113').
+src/SoftEng/Stock.java:103:	Found 'DD'-anomaly for variable 'rsSrch' (lines '103'-'113').
+src/SoftEng/Stock.java:103:	Found 'DD'-anomaly for variable 'rsSrch' (lines '103'-'113').
+src/SoftEng/Stock.java:104:	Local variable 'Srch_ID' could be declared final
+src/SoftEng/Stock.java:104:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Srch_ID' is not final.
+src/SoftEng/Stock.java:104:	Variables should start with a lowercase character, 'Srch_ID' starts with uppercase character.
+src/SoftEng/Stock.java:107:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Stock.java:108:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Stock.java:109:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Stock.java:110:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Stock.java:110:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Stock.java:112:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:113:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:115:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:116:	Local variable 'dbprodID' could be declared final
+src/SoftEng/Stock.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:117:	Found 'DD'-anomaly for variable 'dbprodSerial' (lines '117'-'117').
+src/SoftEng/Stock.java:117:	Found 'DD'-anomaly for variable 'dbprodSerial' (lines '117'-'117').
+src/SoftEng/Stock.java:117:	Found 'DD'-anomaly for variable 'dbprodSerial' (lines '117'-'117').
+src/SoftEng/Stock.java:117:	Found 'DU'-anomaly for variable 'dbprodSerial' (lines '117'-'270').
+src/SoftEng/Stock.java:117:	Found 'DU'-anomaly for variable 'dbprodSerial' (lines '117'-'270').
+src/SoftEng/Stock.java:117:	Found 'DU'-anomaly for variable 'dbprodSerial' (lines '117'-'270').
+src/SoftEng/Stock.java:117:	Local variable 'dbprodSerial' could be declared final
+src/SoftEng/Stock.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:119:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:120:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:121:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:123:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:124:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:125:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:133:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Stock.java:135:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Stock.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:140:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Stock.java:140:	Avoid using if statements without curly braces
+src/SoftEng/Stock.java:140:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:140:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:142:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Stock.java:142:	Avoid using if statements without curly braces
+src/SoftEng/Stock.java:142:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:142:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:144:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Stock.java:144:	Avoid using if statements without curly braces
+src/SoftEng/Stock.java:144:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:144:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Stock.java:160:	Local variable 'lblID' could be declared final
+src/SoftEng/Stock.java:170:	Local variable 'lblAvailable' could be declared final
+src/SoftEng/Stock.java:175:	Local variable 'scrollPane' could be declared final
+src/SoftEng/Stock.java:180:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Stock.java:180:	Local variable 'columnNames' could be declared final
+src/SoftEng/Stock.java:180:	Use ArrayList instead of Vector
+src/SoftEng/Stock.java:181:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Stock.java:181:	Local variable 'data' could be declared final
+src/SoftEng/Stock.java:181:	Use ArrayList instead of Vector
+src/SoftEng/Stock.java:184:	Found 'DD'-anomaly for variable 'conn' (lines '184'-'193').
+src/SoftEng/Stock.java:184:	Found 'DD'-anomaly for variable 'conn' (lines '184'-'193').
+src/SoftEng/Stock.java:184:	Found 'DD'-anomaly for variable 'conn' (lines '184'-'193').
+src/SoftEng/Stock.java:185:	Found 'DD'-anomaly for variable 'stmt' (lines '185'-'194').
+src/SoftEng/Stock.java:185:	Found 'DD'-anomaly for variable 'stmt' (lines '185'-'194').
+src/SoftEng/Stock.java:185:	Found 'DD'-anomaly for variable 'stmt' (lines '185'-'194').
+src/SoftEng/Stock.java:186:	Avoid variables with short names like rs
+src/SoftEng/Stock.java:186:	Found 'DD'-anomaly for variable 'rs' (lines '186'-'195').
+src/SoftEng/Stock.java:186:	Found 'DD'-anomaly for variable 'rs' (lines '186'-'195').
+src/SoftEng/Stock.java:186:	Found 'DD'-anomaly for variable 'rs' (lines '186'-'195').
+src/SoftEng/Stock.java:190:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Stock.java:191:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Stock.java:192:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Stock.java:192:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Stock.java:196:	Avoid variables with short names like md
+src/SoftEng/Stock.java:196:	Local variable 'md' could be declared final
+src/SoftEng/Stock.java:197:	Local variable 'columns' could be declared final
+src/SoftEng/Stock.java:205:	Avoid instantiating new objects inside loops
+src/SoftEng/Stock.java:205:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Stock.java:205:	Local variable 'row' could be declared final
+src/SoftEng/Stock.java:205:	Use ArrayList instead of Vector
+src/SoftEng/Stock.java:216:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Stock.java:218:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Stock.java:223:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Stock.java:223:	Avoid using if statements without curly braces
+src/SoftEng/Stock.java:225:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Stock.java:225:	Avoid using if statements without curly braces
+src/SoftEng/Stock.java:227:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Stock.java:227:	Avoid using if statements without curly braces
+src/SoftEng/Stock.java:230:	Found 'DU'-anomaly for variable 'model' (lines '230'-'270').
+src/SoftEng/Stock.java:230:	Found 'DU'-anomaly for variable 'model' (lines '230'-'270').
+src/SoftEng/Stock.java:230:	Found 'DU'-anomaly for variable 'model' (lines '230'-'270').
+src/SoftEng/Stock.java:230:	Local variable 'model' could be declared final
+src/SoftEng/Stock.java:232:	Parameter 'column' is not assigned and could be declared final
+src/SoftEng/Stock.java:232:	publicMethodCommentRequirement Required
+src/SoftEng/Stock.java:234:	Avoid variables with short names like o
+src/SoftEng/Stock.java:237:	A method should have only one exit point, and that should be the last statement in the method
+src/SoftEng/Stock.java:237:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Store.java:1:	A high number of imports can indicate a high degree of coupling within an object.
+src/SoftEng/Store.java:1:	Package name contains upper case characters
+src/SoftEng/Store.java:3:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/SoftEng/Store.java:10:	Avoid duplicate imports such as 'java.awt.BorderLayout'
+src/SoftEng/Store.java:11:	Avoid unused imports such as 'java.awt.Component'
+src/SoftEng/Store.java:12:	Avoid duplicate imports such as 'java.awt.EventQueue'
+src/SoftEng/Store.java:13:	Avoid unused imports such as 'java.security.PublicKey'
+src/SoftEng/Store.java:15:	Avoid unused imports such as 'java.sql.DriverManager'
+src/SoftEng/Store.java:17:	Avoid unused imports such as 'java.sql.SQLException'
+src/SoftEng/Store.java:19:	Avoid duplicate imports such as 'java.awt.BorderLayout'
+src/SoftEng/Store.java:20:	Avoid duplicate imports such as 'java.awt.EventQueue'
+src/SoftEng/Store.java:22:	Avoid unused imports such as 'javax.swing.JPasswordField'
+src/SoftEng/Store.java:23:	Avoid unused imports such as 'javax.swing.ImageIcon'
+src/SoftEng/Store.java:25:	Avoid unused imports such as 'java.awt.Window.Type'
+src/SoftEng/Store.java:26:	Avoid unused imports such as 'java.awt.Toolkit'
+src/SoftEng/Store.java:28:	Avoid unused imports such as 'javax.swing.UIManager'
+src/SoftEng/Store.java:30:	Avoid unused imports such as 'java.awt.Dialog'
+src/SoftEng/Store.java:35:	Avoid unused imports such as 'javax.swing.JOptionPane'
+src/SoftEng/Store.java:36:	Avoid duplicate imports such as 'javax.swing.JFrame'
+src/SoftEng/Store.java:37:	Avoid duplicate imports such as 'javax.swing.JPanel'
+src/SoftEng/Store.java:38:	Avoid duplicate imports such as 'javax.swing.border.EmptyBorder'
+src/SoftEng/Store.java:39:	Avoid unused imports such as 'javax.swing.JComponent'
+src/SoftEng/Store.java:41:	Avoid duplicate imports such as 'javax.swing.JOptionPane'
+src/SoftEng/Store.java:42:	Avoid unused imports such as 'javax.swing.JTextField'
+src/SoftEng/Store.java:48:	Avoid unused imports such as 'javax.swing.JEditorPane'
+src/SoftEng/Store.java:49:	Avoid unused imports such as 'javax.swing.JTextPane'
+src/SoftEng/Store.java:50:	Avoid unused imports such as 'javax.swing.JTextArea'
+src/SoftEng/Store.java:51:	Avoid unused imports such as 'javax.swing.JTable'
+src/SoftEng/Store.java:58:	headerCommentRequirement Required
+src/SoftEng/Store.java:60:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Store.java:60:	Perhaps 'contentPane' could be replaced by a local variable.
+src/SoftEng/Store.java:60:	fieldCommentRequirement Required
+src/SoftEng/Store.java:61:	Avoid using redundant field initializer for 'conn'
+src/SoftEng/Store.java:61:	Use explicit scoping instead of the default package private level
+src/SoftEng/Store.java:61:	fieldCommentRequirement Required
+src/SoftEng/Store.java:62:	Avoid using redundant field initializer for 'stmt'
+src/SoftEng/Store.java:62:	Use explicit scoping instead of the default package private level
+src/SoftEng/Store.java:62:	fieldCommentRequirement Required
+src/SoftEng/Store.java:63:	Avoid using redundant field initializer for 'rs'
+src/SoftEng/Store.java:63:	Avoid variables with short names like rs
+src/SoftEng/Store.java:63:	Use explicit scoping instead of the default package private level
+src/SoftEng/Store.java:63:	fieldCommentRequirement Required
+src/SoftEng/Store.java:64:	Use explicit scoping instead of the default package private level
+src/SoftEng/Store.java:64:	fieldCommentRequirement Required
+src/SoftEng/Store.java:65:	Avoid unused private fields such as 'loginName'.
+src/SoftEng/Store.java:65:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Store.java:65:	Perhaps 'loginName' could be replaced by a local variable.
+src/SoftEng/Store.java:65:	fieldCommentRequirement Required
+src/SoftEng/Store.java:66:	Avoid using redundant field initializer for 'checked'
+src/SoftEng/Store.java:66:	Use explicit scoping instead of the default package private level
+src/SoftEng/Store.java:66:	fieldCommentRequirement Required
+src/SoftEng/Store.java:68:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/SoftEng/Store.java:68:	Parameter 'args' is not assigned and could be declared final
+src/SoftEng/Store.java:69:	To be compliant to J2EE, a webapp should not use any thread.
+src/SoftEng/Store.java:70:	publicMethodCommentRequirement Required
+src/SoftEng/Store.java:73:	Local variable 'frame' could be declared final
+src/SoftEng/Store.java:76:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Store.java:77:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Store.java:82:	Parameter 'login' is not assigned and could be declared final
+src/SoftEng/Store.java:82:	publicMethodCommentRequirement Required
+src/SoftEng/Store.java:86:	It is a good practice to call super() in a constructor
+src/SoftEng/Store.java:97:	Local variable 'ExitButton' could be declared final
+src/SoftEng/Store.java:97:	Variables should start with a lowercase character, 'ExitButton' starts with uppercase character.
+src/SoftEng/Store.java:102:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/Store.java:102:	publicMethodCommentRequirement Required
+src/SoftEng/Store.java:103:	System.exit() should not be used in J2EE/JEE apps
+src/SoftEng/Store.java:110:	Local variable 'LogoutButton' could be declared final
+src/SoftEng/Store.java:110:	Variables should start with a lowercase character, 'LogoutButton' starts with uppercase character.
+src/SoftEng/Store.java:116:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/Store.java:116:	publicMethodCommentRequirement Required
+src/SoftEng/Store.java:125:	Local variable 'menuBar' could be declared final
+src/SoftEng/Store.java:129:	Local variable 'btnManageProd' could be declared final
+src/SoftEng/Store.java:131:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/Store.java:131:	publicMethodCommentRequirement Required
+src/SoftEng/Store.java:140:	Local variable 'btnShowStock' could be declared final
+src/SoftEng/Store.java:143:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/Store.java:143:	publicMethodCommentRequirement Required
+src/SoftEng/Store.java:149:	Local variable 'btnCustomers' could be declared final
+src/SoftEng/Store.java:151:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/Store.java:151:	publicMethodCommentRequirement Required
+src/SoftEng/Store.java:157:	Local variable 'btnUsers' could be declared final
+src/SoftEng/Store.java:159:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/Store.java:159:	publicMethodCommentRequirement Required
+src/SoftEng/Store.java:166:	Local variable 'btnWarehouses' could be declared final
+src/SoftEng/Store.java:168:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/Store.java:168:	publicMethodCommentRequirement Required
+src/SoftEng/Store.java:175:	Local variable 'lblEditor' could be declared final
+src/SoftEng/Store.java:189:	Parameter 'loginName' is not assigned and could be declared final
+src/SoftEng/Store.java:189:	publicMethodCommentRequirement Required
+src/SoftEng/Store.java:192:	System.out.printf is used
+src/SoftEng/Users.java:1:	Package name contains upper case characters
+src/SoftEng/Users.java:1:	Possible God class (WMC=60, ATFD=81, TCC=0.0)
+src/SoftEng/Users.java:3:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/SoftEng/Users.java:19:	Avoid unused imports such as 'javax.swing.DefaultComboBoxModel'
+src/SoftEng/Users.java:26:	Avoid unused imports such as 'javax.swing.JList'
+src/SoftEng/Users.java:34:	The class 'Users' has a Cyclomatic Complexity of 32 (Highest = 60).
+src/SoftEng/Users.java:34:	The class 'Users' has a Modified Cyclomatic Complexity of 30 (Highest = 56).
+src/SoftEng/Users.java:34:	The class 'Users' has a Standard Cyclomatic Complexity of 30 (Highest = 56).
+src/SoftEng/Users.java:34:	headerCommentRequirement Required
+src/SoftEng/Users.java:36:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Users.java:36:	Perhaps 'contentPane' could be replaced by a local variable.
+src/SoftEng/Users.java:36:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Users.java:36:	fieldCommentRequirement Required
+src/SoftEng/Users.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Users.java:37:	Perhaps 'table' could be replaced by a local variable.
+src/SoftEng/Users.java:37:	Private field 'table' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Users.java:37:	fieldCommentRequirement Required
+src/SoftEng/Users.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Users.java:38:	Private field 'txtFldUsername' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Users.java:38:	fieldCommentRequirement Required
+src/SoftEng/Users.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Users.java:39:	Private field 'txtFldLastName' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Users.java:39:	fieldCommentRequirement Required
+src/SoftEng/Users.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Users.java:40:	Private field 'txtFldFirstName' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Users.java:40:	fieldCommentRequirement Required
+src/SoftEng/Users.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Users.java:41:	Private field 'txtFldPassword' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Users.java:41:	fieldCommentRequirement Required
+src/SoftEng/Users.java:42:	Avoid unused private fields such as 'table_1'.
+src/SoftEng/Users.java:42:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'table_1' is not final.
+src/SoftEng/Users.java:42:	fieldCommentRequirement Required
+src/SoftEng/Users.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Users.java:43:	Private field 'txtFldLevel' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Users.java:43:	fieldCommentRequirement Required
+src/SoftEng/Users.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Users.java:44:	Private field 'txtFldID' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Users.java:44:	fieldCommentRequirement Required
+src/SoftEng/Users.java:45:	Avoid using redundant field initializer for 'checked'
+src/SoftEng/Users.java:45:	Use explicit scoping instead of the default package private level
+src/SoftEng/Users.java:45:	fieldCommentRequirement Required
+src/SoftEng/Users.java:49:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/SoftEng/Users.java:49:	Parameter 'args' is not assigned and could be declared final
+src/SoftEng/Users.java:50:	To be compliant to J2EE, a webapp should not use any thread.
+src/SoftEng/Users.java:51:	publicMethodCommentRequirement Required
+src/SoftEng/Users.java:53:	Local variable 'frame' could be declared final
+src/SoftEng/Users.java:55:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Users.java:56:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:63:	It is a good practice to call super() in a constructor
+src/SoftEng/Users.java:63:	The constructor 'Users' has a Cyclomatic Complexity of 60.
+src/SoftEng/Users.java:63:	The constructor 'Users' has a Modified Cyclomatic Complexity of 56.
+src/SoftEng/Users.java:63:	The constructor 'Users' has a Standard Cyclomatic Complexity of 56.
+src/SoftEng/Users.java:63:	The constructor with 0 parameters has an NCSS line count of 171
+src/SoftEng/Users.java:74:	Local variable 'btnExit' could be declared final
+src/SoftEng/Users.java:76:	Avoid variables with short names like e
+src/SoftEng/Users.java:76:	Parameter 'e' is not assigned and could be declared final
+src/SoftEng/Users.java:76:	publicMethodCommentRequirement Required
+src/SoftEng/Users.java:85:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/Users.java:85:	The method 'actionPerformed' has a Cyclomatic Complexity of 11.
+src/SoftEng/Users.java:85:	publicMethodCommentRequirement Required
+src/SoftEng/Users.java:86:	Found 'DD'-anomaly for variable 'connInsert' (lines '86'-'97').
+src/SoftEng/Users.java:86:	Found 'DD'-anomaly for variable 'connInsert' (lines '86'-'97').
+src/SoftEng/Users.java:86:	Found 'DD'-anomaly for variable 'connInsert' (lines '86'-'97').
+src/SoftEng/Users.java:86:	Found 'DD'-anomaly for variable 'connInsert' (lines '86'-'97').
+src/SoftEng/Users.java:87:	Found 'DD'-anomaly for variable 'stmtInsert' (lines '87'-'98').
+src/SoftEng/Users.java:87:	Found 'DD'-anomaly for variable 'stmtInsert' (lines '87'-'98').
+src/SoftEng/Users.java:87:	Found 'DD'-anomaly for variable 'stmtInsert' (lines '87'-'98').
+src/SoftEng/Users.java:87:	Found 'DD'-anomaly for variable 'stmtInsert' (lines '87'-'98').
+src/SoftEng/Users.java:88:	Local variable 'rsInsert' could be declared final
+src/SoftEng/Users.java:93:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Users.java:93:	The String literal "com.mysql.jdbc.Driver" appears 6 times in this file; the first occurrence is on line 93
+src/SoftEng/Users.java:94:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Users.java:94:	The String literal "jdbc:mysql://127.0.0.1:3306/softeng" appears 6 times in this file; the first occurrence is on line 94
+src/SoftEng/Users.java:95:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Users.java:95:	The String literal "root" appears 6 times in this file; the first occurrence is on line 95
+src/SoftEng/Users.java:96:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Users.java:96:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Users.java:96:	The String literal "19896" appears 6 times in this file; the first occurrence is on line 96
+src/SoftEng/Users.java:98:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:101:	Found 'DU'-anomaly for variable 'p_User' (lines '101'-'465').
+src/SoftEng/Users.java:101:	Found 'DU'-anomaly for variable 'p_User' (lines '101'-'465').
+src/SoftEng/Users.java:101:	Found 'DU'-anomaly for variable 'p_User' (lines '101'-'465').
+src/SoftEng/Users.java:101:	Found 'DU'-anomaly for variable 'p_User' (lines '101'-'465').
+src/SoftEng/Users.java:101:	Local variable 'p_User' could be declared final
+src/SoftEng/Users.java:101:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_User' is not final.
+src/SoftEng/Users.java:102:	Found 'DU'-anomaly for variable 'p_Last' (lines '102'-'465').
+src/SoftEng/Users.java:102:	Found 'DU'-anomaly for variable 'p_Last' (lines '102'-'465').
+src/SoftEng/Users.java:102:	Found 'DU'-anomaly for variable 'p_Last' (lines '102'-'465').
+src/SoftEng/Users.java:102:	Found 'DU'-anomaly for variable 'p_Last' (lines '102'-'465').
+src/SoftEng/Users.java:102:	Local variable 'p_Last' could be declared final
+src/SoftEng/Users.java:102:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Last' is not final.
+src/SoftEng/Users.java:103:	Found 'DU'-anomaly for variable 'p_First' (lines '103'-'465').
+src/SoftEng/Users.java:103:	Found 'DU'-anomaly for variable 'p_First' (lines '103'-'465').
+src/SoftEng/Users.java:103:	Found 'DU'-anomaly for variable 'p_First' (lines '103'-'465').
+src/SoftEng/Users.java:103:	Found 'DU'-anomaly for variable 'p_First' (lines '103'-'465').
+src/SoftEng/Users.java:103:	Local variable 'p_First' could be declared final
+src/SoftEng/Users.java:103:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_First' is not final.
+src/SoftEng/Users.java:104:	Found 'DD'-anomaly for variable 'p_Password' (lines '104'-'165').
+src/SoftEng/Users.java:104:	Found 'DD'-anomaly for variable 'p_Password' (lines '104'-'165').
+src/SoftEng/Users.java:104:	Found 'DD'-anomaly for variable 'p_Password' (lines '104'-'165').
+src/SoftEng/Users.java:104:	Found 'DD'-anomaly for variable 'p_Password' (lines '104'-'165').
+src/SoftEng/Users.java:104:	Local variable 'p_Password' could be declared final
+src/SoftEng/Users.java:104:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Password' is not final.
+src/SoftEng/Users.java:105:	Found 'DD'-anomaly for variable 'p_Level' (lines '105'-'166').
+src/SoftEng/Users.java:105:	Found 'DD'-anomaly for variable 'p_Level' (lines '105'-'166').
+src/SoftEng/Users.java:105:	Found 'DD'-anomaly for variable 'p_Level' (lines '105'-'166').
+src/SoftEng/Users.java:105:	Found 'DD'-anomaly for variable 'p_Level' (lines '105'-'166').
+src/SoftEng/Users.java:105:	Local variable 'p_Level' could be declared final
+src/SoftEng/Users.java:105:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Level' is not final.
+src/SoftEng/Users.java:108:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Users.java:108:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Users.java:108:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Users.java:114:	Local variable 'insert' could be declared final
+src/SoftEng/Users.java:114:	The String literal "','" appears 4 times in this file; the first occurrence is on line 114
+src/SoftEng/Users.java:115:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:121:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Users.java:123:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:123:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:128:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:128:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:128:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:128:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:130:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:130:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:130:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:130:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:132:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:132:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:132:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:132:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:140:	Local variable 'btnDelete' could be declared final
+src/SoftEng/Users.java:144:	Local variable 'btnSave' could be declared final
+src/SoftEng/Users.java:146:	Avoid variables with short names like sv
+src/SoftEng/Users.java:146:	Parameter 'sv' is not assigned and could be declared final
+src/SoftEng/Users.java:146:	The method 'actionPerformed' has a Cyclomatic Complexity of 11.
+src/SoftEng/Users.java:146:	publicMethodCommentRequirement Required
+src/SoftEng/Users.java:148:	Found 'DD'-anomaly for variable 'connSave' (lines '148'-'158').
+src/SoftEng/Users.java:148:	Found 'DD'-anomaly for variable 'connSave' (lines '148'-'158').
+src/SoftEng/Users.java:148:	Found 'DD'-anomaly for variable 'connSave' (lines '148'-'158').
+src/SoftEng/Users.java:148:	Found 'DD'-anomaly for variable 'connSave' (lines '148'-'158').
+src/SoftEng/Users.java:149:	Found 'DD'-anomaly for variable 'stmtSave' (lines '149'-'159').
+src/SoftEng/Users.java:149:	Found 'DD'-anomaly for variable 'stmtSave' (lines '149'-'159').
+src/SoftEng/Users.java:149:	Found 'DD'-anomaly for variable 'stmtSave' (lines '149'-'159').
+src/SoftEng/Users.java:149:	Found 'DD'-anomaly for variable 'stmtSave' (lines '149'-'159').
+src/SoftEng/Users.java:150:	Local variable 'rsSave' could be declared final
+src/SoftEng/Users.java:154:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Users.java:155:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Users.java:156:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Users.java:157:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Users.java:157:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Users.java:159:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:161:	Found 'DU'-anomaly for variable 'p_id' (lines '161'-'465').
+src/SoftEng/Users.java:161:	Found 'DU'-anomaly for variable 'p_id' (lines '161'-'465').
+src/SoftEng/Users.java:161:	Found 'DU'-anomaly for variable 'p_id' (lines '161'-'465').
+src/SoftEng/Users.java:161:	Found 'DU'-anomaly for variable 'p_id' (lines '161'-'465').
+src/SoftEng/Users.java:161:	Local variable 'p_id' could be declared final
+src/SoftEng/Users.java:161:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_id' is not final.
+src/SoftEng/Users.java:162:	Found 'DU'-anomaly for variable 'p_Username' (lines '162'-'465').
+src/SoftEng/Users.java:162:	Found 'DU'-anomaly for variable 'p_Username' (lines '162'-'465').
+src/SoftEng/Users.java:162:	Found 'DU'-anomaly for variable 'p_Username' (lines '162'-'465').
+src/SoftEng/Users.java:162:	Found 'DU'-anomaly for variable 'p_Username' (lines '162'-'465').
+src/SoftEng/Users.java:162:	Local variable 'p_Username' could be declared final
+src/SoftEng/Users.java:162:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Username' is not final.
+src/SoftEng/Users.java:163:	Found 'DU'-anomaly for variable 'p_LName' (lines '163'-'465').
+src/SoftEng/Users.java:163:	Found 'DU'-anomaly for variable 'p_LName' (lines '163'-'465').
+src/SoftEng/Users.java:163:	Found 'DU'-anomaly for variable 'p_LName' (lines '163'-'465').
+src/SoftEng/Users.java:163:	Found 'DU'-anomaly for variable 'p_LName' (lines '163'-'465').
+src/SoftEng/Users.java:163:	Local variable 'p_LName' could be declared final
+src/SoftEng/Users.java:163:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_LName' is not final.
+src/SoftEng/Users.java:164:	Found 'DU'-anomaly for variable 'p_FName' (lines '164'-'465').
+src/SoftEng/Users.java:164:	Found 'DU'-anomaly for variable 'p_FName' (lines '164'-'465').
+src/SoftEng/Users.java:164:	Found 'DU'-anomaly for variable 'p_FName' (lines '164'-'465').
+src/SoftEng/Users.java:164:	Found 'DU'-anomaly for variable 'p_FName' (lines '164'-'465').
+src/SoftEng/Users.java:164:	Local variable 'p_FName' could be declared final
+src/SoftEng/Users.java:164:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_FName' is not final.
+src/SoftEng/Users.java:165:	Found 'DU'-anomaly for variable 'p_Password' (lines '165'-'465').
+src/SoftEng/Users.java:165:	Found 'DU'-anomaly for variable 'p_Password' (lines '165'-'465').
+src/SoftEng/Users.java:165:	Found 'DU'-anomaly for variable 'p_Password' (lines '165'-'465').
+src/SoftEng/Users.java:165:	Found 'DU'-anomaly for variable 'p_Password' (lines '165'-'465').
+src/SoftEng/Users.java:165:	Local variable 'p_Password' could be declared final
+src/SoftEng/Users.java:165:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Password' is not final.
+src/SoftEng/Users.java:166:	Found 'DU'-anomaly for variable 'p_Level' (lines '166'-'465').
+src/SoftEng/Users.java:166:	Found 'DU'-anomaly for variable 'p_Level' (lines '166'-'465').
+src/SoftEng/Users.java:166:	Found 'DU'-anomaly for variable 'p_Level' (lines '166'-'465').
+src/SoftEng/Users.java:166:	Found 'DU'-anomaly for variable 'p_Level' (lines '166'-'465').
+src/SoftEng/Users.java:166:	Local variable 'p_Level' could be declared final
+src/SoftEng/Users.java:166:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Level' is not final.
+src/SoftEng/Users.java:169:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Users.java:169:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Users.java:169:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Users.java:175:	Local variable 'update_username' could be declared final
+src/SoftEng/Users.java:175:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_username' is not final.
+src/SoftEng/Users.java:175:	The String literal " ' " appears 5 times in this file; the first occurrence is on line 175
+src/SoftEng/Users.java:175:	The String literal "' where id = '" appears 5 times in this file; the first occurrence is on line 175
+src/SoftEng/Users.java:176:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:177:	Local variable 'update_password' could be declared final
+src/SoftEng/Users.java:177:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_password' is not final.
+src/SoftEng/Users.java:178:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:179:	Local variable 'update_lname' could be declared final
+src/SoftEng/Users.java:179:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_lname' is not final.
+src/SoftEng/Users.java:180:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:181:	Local variable 'update_fname' could be declared final
+src/SoftEng/Users.java:181:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_fname' is not final.
+src/SoftEng/Users.java:182:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:183:	Local variable 'update_level' could be declared final
+src/SoftEng/Users.java:183:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_level' is not final.
+src/SoftEng/Users.java:184:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:186:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:191:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Users.java:193:	System.out.println is used
+src/SoftEng/Users.java:194:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:194:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:198:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:198:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:198:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:198:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:200:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:200:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:200:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:200:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:202:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:202:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:202:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:202:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:209:	Local variable 'lblUserName' could be declared final
+src/SoftEng/Users.java:213:	Local variable 'lblSurName' could be declared final
+src/SoftEng/Users.java:217:	Local variable 'lblFirstName' could be declared final
+src/SoftEng/Users.java:221:	Local variable 'lblPassword' could be declared final
+src/SoftEng/Users.java:225:	Local variable 'lblLevel' could be declared final
+src/SoftEng/Users.java:229:	Local variable 'lblStatus' could be declared final
+src/SoftEng/Users.java:253:	Local variable 'chckbxStatus' could be declared final
+src/SoftEng/Users.java:258:	Found 'DD'-anomaly for variable 'connlevel' (lines '258'-'267').
+src/SoftEng/Users.java:258:	Found 'DD'-anomaly for variable 'connlevel' (lines '258'-'267').
+src/SoftEng/Users.java:258:	Found 'DD'-anomaly for variable 'connlevel' (lines '258'-'267').
+src/SoftEng/Users.java:258:	Found 'DD'-anomaly for variable 'connlevel' (lines '258'-'267').
+src/SoftEng/Users.java:259:	Found 'DD'-anomaly for variable 'stmtlevel' (lines '259'-'268').
+src/SoftEng/Users.java:259:	Found 'DD'-anomaly for variable 'stmtlevel' (lines '259'-'268').
+src/SoftEng/Users.java:259:	Found 'DD'-anomaly for variable 'stmtlevel' (lines '259'-'268').
+src/SoftEng/Users.java:259:	Found 'DD'-anomaly for variable 'stmtlevel' (lines '259'-'268').
+src/SoftEng/Users.java:260:	Found 'DD'-anomaly for variable 'rslevel' (lines '260'-'269').
+src/SoftEng/Users.java:260:	Found 'DD'-anomaly for variable 'rslevel' (lines '260'-'269').
+src/SoftEng/Users.java:260:	Found 'DD'-anomaly for variable 'rslevel' (lines '260'-'269').
+src/SoftEng/Users.java:260:	Found 'DD'-anomaly for variable 'rslevel' (lines '260'-'269').
+src/SoftEng/Users.java:264:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Users.java:265:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Users.java:266:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Users.java:266:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Users.java:274:	Parameter 'vat' is not assigned and could be declared final
+src/SoftEng/Users.java:274:	publicMethodCommentRequirement Required
+src/SoftEng/Users.java:275:	Found 'DD'-anomaly for variable 'connlevel2' (lines '275'-'283').
+src/SoftEng/Users.java:275:	Found 'DD'-anomaly for variable 'connlevel2' (lines '275'-'283').
+src/SoftEng/Users.java:275:	Found 'DD'-anomaly for variable 'connlevel2' (lines '275'-'283').
+src/SoftEng/Users.java:275:	Found 'DD'-anomaly for variable 'connlevel2' (lines '275'-'283').
+src/SoftEng/Users.java:276:	Found 'DD'-anomaly for variable 'stmtlevel2' (lines '276'-'284').
+src/SoftEng/Users.java:276:	Found 'DD'-anomaly for variable 'stmtlevel2' (lines '276'-'284').
+src/SoftEng/Users.java:276:	Found 'DD'-anomaly for variable 'stmtlevel2' (lines '276'-'284').
+src/SoftEng/Users.java:276:	Found 'DD'-anomaly for variable 'stmtlevel2' (lines '276'-'284').
+src/SoftEng/Users.java:277:	Found 'DD'-anomaly for variable 'rslevel2' (lines '277'-'285').
+src/SoftEng/Users.java:277:	Found 'DD'-anomaly for variable 'rslevel2' (lines '277'-'285').
+src/SoftEng/Users.java:277:	Found 'DD'-anomaly for variable 'rslevel2' (lines '277'-'285').
+src/SoftEng/Users.java:277:	Found 'DD'-anomaly for variable 'rslevel2' (lines '277'-'285').
+src/SoftEng/Users.java:279:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Users.java:280:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Users.java:281:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Users.java:282:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Users.java:282:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Users.java:284:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:285:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:286:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:287:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:290:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Users.java:291:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:291:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:294:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:294:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:294:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:294:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:300:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Users.java:301:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:304:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:304:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:308:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:308:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:310:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:310:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:315:	Local variable 'scrollPane' could be declared final
+src/SoftEng/Users.java:320:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Users.java:320:	Local variable 'columnNames' could be declared final
+src/SoftEng/Users.java:320:	Use ArrayList instead of Vector
+src/SoftEng/Users.java:321:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Users.java:321:	Local variable 'data' could be declared final
+src/SoftEng/Users.java:321:	Use ArrayList instead of Vector
+src/SoftEng/Users.java:324:	Found 'DD'-anomaly for variable 'conn' (lines '324'-'333').
+src/SoftEng/Users.java:324:	Found 'DD'-anomaly for variable 'conn' (lines '324'-'333').
+src/SoftEng/Users.java:324:	Found 'DD'-anomaly for variable 'conn' (lines '324'-'333').
+src/SoftEng/Users.java:324:	Found 'DD'-anomaly for variable 'conn' (lines '324'-'333').
+src/SoftEng/Users.java:325:	Found 'DD'-anomaly for variable 'stmt' (lines '325'-'334').
+src/SoftEng/Users.java:325:	Found 'DD'-anomaly for variable 'stmt' (lines '325'-'334').
+src/SoftEng/Users.java:325:	Found 'DD'-anomaly for variable 'stmt' (lines '325'-'334').
+src/SoftEng/Users.java:325:	Found 'DD'-anomaly for variable 'stmt' (lines '325'-'334').
+src/SoftEng/Users.java:326:	Avoid variables with short names like rs
+src/SoftEng/Users.java:326:	Found 'DD'-anomaly for variable 'rs' (lines '326'-'335').
+src/SoftEng/Users.java:326:	Found 'DD'-anomaly for variable 'rs' (lines '326'-'335').
+src/SoftEng/Users.java:326:	Found 'DD'-anomaly for variable 'rs' (lines '326'-'335').
+src/SoftEng/Users.java:326:	Found 'DD'-anomaly for variable 'rs' (lines '326'-'335').
+src/SoftEng/Users.java:330:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Users.java:331:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Users.java:332:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Users.java:332:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Users.java:336:	Avoid variables with short names like md
+src/SoftEng/Users.java:336:	Local variable 'md' could be declared final
+src/SoftEng/Users.java:337:	Local variable 'columns' could be declared final
+src/SoftEng/Users.java:345:	Avoid instantiating new objects inside loops
+src/SoftEng/Users.java:345:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Users.java:345:	Local variable 'row' could be declared final
+src/SoftEng/Users.java:345:	Use ArrayList instead of Vector
+src/SoftEng/Users.java:356:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Users.java:358:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:363:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:363:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:365:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:365:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:367:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:367:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:370:	Found 'DU'-anomaly for variable 'model' (lines '370'-'465').
+src/SoftEng/Users.java:370:	Found 'DU'-anomaly for variable 'model' (lines '370'-'465').
+src/SoftEng/Users.java:370:	Found 'DU'-anomaly for variable 'model' (lines '370'-'465').
+src/SoftEng/Users.java:370:	Found 'DU'-anomaly for variable 'model' (lines '370'-'465').
+src/SoftEng/Users.java:370:	Local variable 'model' could be declared final
+src/SoftEng/Users.java:372:	Parameter 'column' is not assigned and could be declared final
+src/SoftEng/Users.java:372:	publicMethodCommentRequirement Required
+src/SoftEng/Users.java:374:	Avoid variables with short names like o
+src/SoftEng/Users.java:377:	A method should have only one exit point, and that should be the last statement in the method
+src/SoftEng/Users.java:377:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:406:	Local variable 'lblSearch' could be declared final
+src/SoftEng/Users.java:416:	Local variable 'btnSearch' could be declared final
+src/SoftEng/Users.java:418:	Avoid variables with short names like s
+src/SoftEng/Users.java:418:	Parameter 's' is not assigned and could be declared final
+src/SoftEng/Users.java:418:	The method 'actionPerformed' has a Cyclomatic Complexity of 10.
+src/SoftEng/Users.java:418:	The method 'actionPerformed' has a Modified Cyclomatic Complexity of 10.
+src/SoftEng/Users.java:418:	The method 'actionPerformed' has a Standard Cyclomatic Complexity of 10.
+src/SoftEng/Users.java:418:	publicMethodCommentRequirement Required
+src/SoftEng/Users.java:422:	Local variable 'Srch_ID' could be declared final
+src/SoftEng/Users.java:422:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Srch_ID' is not final.
+src/SoftEng/Users.java:422:	Variables should start with a lowercase character, 'Srch_ID' starts with uppercase character.
+src/SoftEng/Users.java:425:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Users.java:426:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Users.java:427:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Users.java:428:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Users.java:428:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Users.java:430:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:431:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:433:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:434:	Local variable 'dbuserID' could be declared final
+src/SoftEng/Users.java:434:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:436:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:437:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:438:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:439:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:440:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:441:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:446:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Users.java:447:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:447:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:450:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:450:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:450:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:450:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:452:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:452:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:452:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:452:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:454:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Users.java:454:	Avoid using if statements without curly braces
+src/SoftEng/Users.java:454:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:454:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Users.java:461:	Local variable 'lblSrchID' could be declared final
+src/SoftEng/Warehouse.java:1:	A high number of imports can indicate a high degree of coupling within an object.
+src/SoftEng/Warehouse.java:1:	Package name contains upper case characters
+src/SoftEng/Warehouse.java:1:	Possible God class (WMC=87, ATFD=111, TCC=0.0)
+src/SoftEng/Warehouse.java:3:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/SoftEng/Warehouse.java:8:	Avoid unused imports such as 'java.util.Observable'
+src/SoftEng/Warehouse.java:9:	Avoid unused imports such as 'java.util.Observer'
+src/SoftEng/Warehouse.java:21:	Avoid unused imports such as 'javax.swing.table.TableColumn'
+src/SoftEng/Warehouse.java:22:	Avoid unused imports such as 'javax.swing.table.TableModel'
+src/SoftEng/Warehouse.java:23:	Avoid unused imports such as 'javax.swing.DefaultComboBoxModel'
+src/SoftEng/Warehouse.java:30:	Avoid unused imports such as 'javax.swing.event.TableModelEvent'
+src/SoftEng/Warehouse.java:32:	Avoid unused imports such as 'javax.swing.DropMode'
+src/SoftEng/Warehouse.java:33:	Avoid unused imports such as 'javax.swing.JEditorPane'
+src/SoftEng/Warehouse.java:36:	The class 'Warehouse' has a Cyclomatic Complexity of 46 (Highest = 87).
+src/SoftEng/Warehouse.java:36:	The class 'Warehouse' has a Modified Cyclomatic Complexity of 44 (Highest = 83).
+src/SoftEng/Warehouse.java:36:	The class 'Warehouse' has a Standard Cyclomatic Complexity of 44 (Highest = 83).
+src/SoftEng/Warehouse.java:36:	headerCommentRequirement Required
+src/SoftEng/Warehouse.java:38:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Warehouse.java:38:	Perhaps 'contentPane' could be replaced by a local variable.
+src/SoftEng/Warehouse.java:38:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Warehouse.java:38:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Warehouse.java:39:	Private field 'txtFldName' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Warehouse.java:39:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Warehouse.java:40:	Private field 'txtFldSerial' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Warehouse.java:40:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Warehouse.java:41:	Private field 'txtFldID' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Warehouse.java:41:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:42:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Warehouse.java:42:	Private field 'txtFldPrice' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Warehouse.java:42:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Warehouse.java:43:	Private field 'txtFldSeller' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Warehouse.java:43:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Warehouse.java:44:	Private field 'txtFldBarcode' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Warehouse.java:44:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Warehouse.java:45:	Private field 'txtFldVAT' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Warehouse.java:45:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Warehouse.java:46:	Private field 'txtFldCount' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Warehouse.java:46:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:47:	Avoid unused private fields such as 'comboBoxVAT'.
+src/SoftEng/Warehouse.java:47:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Warehouse.java:48:	Perhaps 'table' could be replaced by a local variable.
+src/SoftEng/Warehouse.java:48:	Private field 'table' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Warehouse.java:48:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:49:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/Warehouse.java:49:	Private field 'txtFldWarehouse' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/Warehouse.java:49:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:50:	Avoid using redundant field initializer for 'checked'
+src/SoftEng/Warehouse.java:50:	Use explicit scoping instead of the default package private level
+src/SoftEng/Warehouse.java:50:	fieldCommentRequirement Required
+src/SoftEng/Warehouse.java:55:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/SoftEng/Warehouse.java:55:	Parameter 'args' is not assigned and could be declared final
+src/SoftEng/Warehouse.java:56:	To be compliant to J2EE, a webapp should not use any thread.
+src/SoftEng/Warehouse.java:57:	publicMethodCommentRequirement Required
+src/SoftEng/Warehouse.java:59:	Local variable 'frame' could be declared final
+src/SoftEng/Warehouse.java:61:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Warehouse.java:62:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:72:	It is a good practice to call super() in a constructor
+src/SoftEng/Warehouse.java:72:	The constructor 'Warehouse' has a Cyclomatic Complexity of 87.
+src/SoftEng/Warehouse.java:72:	The constructor 'Warehouse' has a Modified Cyclomatic Complexity of 83.
+src/SoftEng/Warehouse.java:72:	The constructor 'Warehouse' has a Standard Cyclomatic Complexity of 83.
+src/SoftEng/Warehouse.java:72:	The constructor with 0 parameters has an NCSS line count of 224
+src/SoftEng/Warehouse.java:81:	Local variable 'btnExit' could be declared final
+src/SoftEng/Warehouse.java:83:	Avoid variables with short names like e
+src/SoftEng/Warehouse.java:83:	Parameter 'e' is not assigned and could be declared final
+src/SoftEng/Warehouse.java:83:	publicMethodCommentRequirement Required
+src/SoftEng/Warehouse.java:93:	Avoid variables with short names like i
+src/SoftEng/Warehouse.java:93:	Parameter 'i' is not assigned and could be declared final
+src/SoftEng/Warehouse.java:93:	The method 'actionPerformed' has a Cyclomatic Complexity of 11.
+src/SoftEng/Warehouse.java:93:	publicMethodCommentRequirement Required
+src/SoftEng/Warehouse.java:95:	Found 'DD'-anomaly for variable 'connInsert' (lines '95'-'106').
+src/SoftEng/Warehouse.java:95:	Found 'DD'-anomaly for variable 'connInsert' (lines '95'-'106').
+src/SoftEng/Warehouse.java:95:	Found 'DD'-anomaly for variable 'connInsert' (lines '95'-'106').
+src/SoftEng/Warehouse.java:96:	Found 'DD'-anomaly for variable 'stmtInsert' (lines '96'-'107').
+src/SoftEng/Warehouse.java:96:	Found 'DD'-anomaly for variable 'stmtInsert' (lines '96'-'107').
+src/SoftEng/Warehouse.java:96:	Found 'DD'-anomaly for variable 'stmtInsert' (lines '96'-'107').
+src/SoftEng/Warehouse.java:97:	Local variable 'rsInsert' could be declared final
+src/SoftEng/Warehouse.java:102:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:102:	The String literal "com.mysql.jdbc.Driver" appears 9 times in this file; the first occurrence is on line 102
+src/SoftEng/Warehouse.java:103:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Warehouse.java:103:	The String literal "jdbc:mysql://127.0.0.1:3306/softeng" appears 9 times in this file; the first occurrence is on line 103
+src/SoftEng/Warehouse.java:104:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Warehouse.java:104:	The String literal "root" appears 9 times in this file; the first occurrence is on line 104
+src/SoftEng/Warehouse.java:105:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Warehouse.java:105:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Warehouse.java:105:	The String literal "19896" appears 9 times in this file; the first occurrence is on line 105
+src/SoftEng/Warehouse.java:107:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:110:	Found 'DD'-anomaly for variable 'p_Name' (lines '110'-'230').
+src/SoftEng/Warehouse.java:110:	Found 'DD'-anomaly for variable 'p_Name' (lines '110'-'230').
+src/SoftEng/Warehouse.java:110:	Found 'DD'-anomaly for variable 'p_Name' (lines '110'-'230').
+src/SoftEng/Warehouse.java:110:	Local variable 'p_Name' could be declared final
+src/SoftEng/Warehouse.java:110:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Name' is not final.
+src/SoftEng/Warehouse.java:111:	Found 'DD'-anomaly for variable 'p_Serial' (lines '111'-'231').
+src/SoftEng/Warehouse.java:111:	Found 'DD'-anomaly for variable 'p_Serial' (lines '111'-'231').
+src/SoftEng/Warehouse.java:111:	Found 'DD'-anomaly for variable 'p_Serial' (lines '111'-'231').
+src/SoftEng/Warehouse.java:111:	Local variable 'p_Serial' could be declared final
+src/SoftEng/Warehouse.java:111:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Serial' is not final.
+src/SoftEng/Warehouse.java:112:	Found 'DD'-anomaly for variable 'p_Count' (lines '112'-'232').
+src/SoftEng/Warehouse.java:112:	Found 'DD'-anomaly for variable 'p_Count' (lines '112'-'232').
+src/SoftEng/Warehouse.java:112:	Found 'DD'-anomaly for variable 'p_Count' (lines '112'-'232').
+src/SoftEng/Warehouse.java:112:	Local variable 'p_Count' could be declared final
+src/SoftEng/Warehouse.java:112:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Count' is not final.
+src/SoftEng/Warehouse.java:113:	Found 'DD'-anomaly for variable 'p_Price' (lines '113'-'233').
+src/SoftEng/Warehouse.java:113:	Found 'DD'-anomaly for variable 'p_Price' (lines '113'-'233').
+src/SoftEng/Warehouse.java:113:	Found 'DD'-anomaly for variable 'p_Price' (lines '113'-'233').
+src/SoftEng/Warehouse.java:113:	Local variable 'p_Price' could be declared final
+src/SoftEng/Warehouse.java:113:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Price' is not final.
+src/SoftEng/Warehouse.java:114:	Found 'DD'-anomaly for variable 'p_Seller' (lines '114'-'234').
+src/SoftEng/Warehouse.java:114:	Found 'DD'-anomaly for variable 'p_Seller' (lines '114'-'234').
+src/SoftEng/Warehouse.java:114:	Found 'DD'-anomaly for variable 'p_Seller' (lines '114'-'234').
+src/SoftEng/Warehouse.java:114:	Local variable 'p_Seller' could be declared final
+src/SoftEng/Warehouse.java:114:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Seller' is not final.
+src/SoftEng/Warehouse.java:115:	Found 'DD'-anomaly for variable 'p_Barcode' (lines '115'-'235').
+src/SoftEng/Warehouse.java:115:	Found 'DD'-anomaly for variable 'p_Barcode' (lines '115'-'235').
+src/SoftEng/Warehouse.java:115:	Found 'DD'-anomaly for variable 'p_Barcode' (lines '115'-'235').
+src/SoftEng/Warehouse.java:115:	Local variable 'p_Barcode' could be declared final
+src/SoftEng/Warehouse.java:115:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Barcode' is not final.
+src/SoftEng/Warehouse.java:116:	Found 'DD'-anomaly for variable 'p_VAT' (lines '116'-'236').
+src/SoftEng/Warehouse.java:116:	Found 'DD'-anomaly for variable 'p_VAT' (lines '116'-'236').
+src/SoftEng/Warehouse.java:116:	Found 'DD'-anomaly for variable 'p_VAT' (lines '116'-'236').
+src/SoftEng/Warehouse.java:116:	Local variable 'p_VAT' could be declared final
+src/SoftEng/Warehouse.java:116:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_VAT' is not final.
+src/SoftEng/Warehouse.java:118:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:118:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:118:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:124:	Local variable 'insert' could be declared final
+src/SoftEng/Warehouse.java:124:	The String literal "','" appears 6 times in this file; the first occurrence is on line 124
+src/SoftEng/Warehouse.java:125:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:126:	Local variable 'update_Warehouse' could be declared final
+src/SoftEng/Warehouse.java:126:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_Warehouse' is not final.
+src/SoftEng/Warehouse.java:127:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:128:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:133:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Warehouse.java:135:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:140:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:140:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:140:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:140:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:142:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:142:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:142:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:142:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:144:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:144:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:144:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:144:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:152:	Avoid variables with short names like d
+src/SoftEng/Warehouse.java:152:	Parameter 'd' is not assigned and could be declared final
+src/SoftEng/Warehouse.java:152:	publicMethodCommentRequirement Required
+src/SoftEng/Warehouse.java:153:	Found 'DD'-anomaly for variable 'connDelete' (lines '153'-'162').
+src/SoftEng/Warehouse.java:153:	Found 'DD'-anomaly for variable 'connDelete' (lines '153'-'162').
+src/SoftEng/Warehouse.java:153:	Found 'DD'-anomaly for variable 'connDelete' (lines '153'-'162').
+src/SoftEng/Warehouse.java:154:	Found 'DD'-anomaly for variable 'stmtDelete' (lines '154'-'163').
+src/SoftEng/Warehouse.java:154:	Found 'DD'-anomaly for variable 'stmtDelete' (lines '154'-'163').
+src/SoftEng/Warehouse.java:154:	Found 'DD'-anomaly for variable 'stmtDelete' (lines '154'-'163').
+src/SoftEng/Warehouse.java:155:	Local variable 'rsDelete' could be declared final
+src/SoftEng/Warehouse.java:158:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:159:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Warehouse.java:160:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Warehouse.java:161:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Warehouse.java:161:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Warehouse.java:163:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:165:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:171:	Local variable 'p_ID' could be declared final
+src/SoftEng/Warehouse.java:171:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_ID' is not final.
+src/SoftEng/Warehouse.java:172:	Local variable 'delete' could be declared final
+src/SoftEng/Warehouse.java:173:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:174:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:178:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Warehouse.java:179:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:179:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:182:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:182:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:182:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:182:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:184:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:184:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:184:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:184:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:186:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:186:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:186:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:186:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:193:	Local variable 'btnClear' could be declared final
+src/SoftEng/Warehouse.java:195:	Avoid variables with short names like c
+src/SoftEng/Warehouse.java:195:	Parameter 'c' is not assigned and could be declared final
+src/SoftEng/Warehouse.java:195:	publicMethodCommentRequirement Required
+src/SoftEng/Warehouse.java:209:	Local variable 'btnSave' could be declared final
+src/SoftEng/Warehouse.java:211:	Avoid variables with short names like sv
+src/SoftEng/Warehouse.java:211:	Parameter 'sv' is not assigned and could be declared final
+src/SoftEng/Warehouse.java:211:	The method 'actionPerformed' has a Cyclomatic Complexity of 11.
+src/SoftEng/Warehouse.java:211:	publicMethodCommentRequirement Required
+src/SoftEng/Warehouse.java:213:	Found 'DD'-anomaly for variable 'connSave' (lines '213'-'226').
+src/SoftEng/Warehouse.java:213:	Found 'DD'-anomaly for variable 'connSave' (lines '213'-'226').
+src/SoftEng/Warehouse.java:213:	Found 'DD'-anomaly for variable 'connSave' (lines '213'-'226').
+src/SoftEng/Warehouse.java:214:	Found 'DD'-anomaly for variable 'stmtSave' (lines '214'-'227').
+src/SoftEng/Warehouse.java:214:	Found 'DD'-anomaly for variable 'stmtSave' (lines '214'-'227').
+src/SoftEng/Warehouse.java:214:	Found 'DD'-anomaly for variable 'stmtSave' (lines '214'-'227').
+src/SoftEng/Warehouse.java:215:	Local variable 'rsSave' could be declared final
+src/SoftEng/Warehouse.java:222:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:223:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Warehouse.java:224:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Warehouse.java:225:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Warehouse.java:225:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Warehouse.java:227:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:229:	Found 'DU'-anomaly for variable 'p_id' (lines '229'-'651').
+src/SoftEng/Warehouse.java:229:	Found 'DU'-anomaly for variable 'p_id' (lines '229'-'651').
+src/SoftEng/Warehouse.java:229:	Local variable 'p_id' could be declared final
+src/SoftEng/Warehouse.java:229:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_id' is not final.
+src/SoftEng/Warehouse.java:230:	Found 'DU'-anomaly for variable 'p_Name' (lines '230'-'651').
+src/SoftEng/Warehouse.java:230:	Found 'DU'-anomaly for variable 'p_Name' (lines '230'-'651').
+src/SoftEng/Warehouse.java:230:	Local variable 'p_Name' could be declared final
+src/SoftEng/Warehouse.java:230:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Name' is not final.
+src/SoftEng/Warehouse.java:231:	Found 'DU'-anomaly for variable 'p_Serial' (lines '231'-'651').
+src/SoftEng/Warehouse.java:231:	Found 'DU'-anomaly for variable 'p_Serial' (lines '231'-'651').
+src/SoftEng/Warehouse.java:231:	Local variable 'p_Serial' could be declared final
+src/SoftEng/Warehouse.java:231:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Serial' is not final.
+src/SoftEng/Warehouse.java:232:	Found 'DU'-anomaly for variable 'p_Count' (lines '232'-'651').
+src/SoftEng/Warehouse.java:232:	Found 'DU'-anomaly for variable 'p_Count' (lines '232'-'651').
+src/SoftEng/Warehouse.java:232:	Local variable 'p_Count' could be declared final
+src/SoftEng/Warehouse.java:232:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Count' is not final.
+src/SoftEng/Warehouse.java:233:	Found 'DU'-anomaly for variable 'p_Price' (lines '233'-'651').
+src/SoftEng/Warehouse.java:233:	Found 'DU'-anomaly for variable 'p_Price' (lines '233'-'651').
+src/SoftEng/Warehouse.java:233:	Local variable 'p_Price' could be declared final
+src/SoftEng/Warehouse.java:233:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Price' is not final.
+src/SoftEng/Warehouse.java:234:	Found 'DU'-anomaly for variable 'p_Seller' (lines '234'-'651').
+src/SoftEng/Warehouse.java:234:	Found 'DU'-anomaly for variable 'p_Seller' (lines '234'-'651').
+src/SoftEng/Warehouse.java:234:	Local variable 'p_Seller' could be declared final
+src/SoftEng/Warehouse.java:234:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Seller' is not final.
+src/SoftEng/Warehouse.java:235:	Found 'DU'-anomaly for variable 'p_Barcode' (lines '235'-'651').
+src/SoftEng/Warehouse.java:235:	Found 'DU'-anomaly for variable 'p_Barcode' (lines '235'-'651').
+src/SoftEng/Warehouse.java:235:	Local variable 'p_Barcode' could be declared final
+src/SoftEng/Warehouse.java:235:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_Barcode' is not final.
+src/SoftEng/Warehouse.java:236:	Found 'DU'-anomaly for variable 'p_VAT' (lines '236'-'651').
+src/SoftEng/Warehouse.java:236:	Found 'DU'-anomaly for variable 'p_VAT' (lines '236'-'651').
+src/SoftEng/Warehouse.java:236:	Local variable 'p_VAT' could be declared final
+src/SoftEng/Warehouse.java:236:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_VAT' is not final.
+src/SoftEng/Warehouse.java:238:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:238:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:238:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:244:	Local variable 'update_name' could be declared final
+src/SoftEng/Warehouse.java:244:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_name' is not final.
+src/SoftEng/Warehouse.java:244:	The String literal " ' " appears 6 times in this file; the first occurrence is on line 244
+src/SoftEng/Warehouse.java:244:	The String literal "' where id = '" appears 7 times in this file; the first occurrence is on line 244
+src/SoftEng/Warehouse.java:245:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:246:	Local variable 'update_serial' could be declared final
+src/SoftEng/Warehouse.java:246:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_serial' is not final.
+src/SoftEng/Warehouse.java:247:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:248:	Local variable 'update_count' could be declared final
+src/SoftEng/Warehouse.java:248:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_count' is not final.
+src/SoftEng/Warehouse.java:249:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:250:	Local variable 'update_price' could be declared final
+src/SoftEng/Warehouse.java:250:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_price' is not final.
+src/SoftEng/Warehouse.java:251:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:252:	Local variable 'update_seller' could be declared final
+src/SoftEng/Warehouse.java:252:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_seller' is not final.
+src/SoftEng/Warehouse.java:253:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:254:	Local variable 'update_barcode' could be declared final
+src/SoftEng/Warehouse.java:254:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_barcode' is not final.
+src/SoftEng/Warehouse.java:255:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:256:	Local variable 'update_VAT' could be declared final
+src/SoftEng/Warehouse.java:256:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_VAT' is not final.
+src/SoftEng/Warehouse.java:257:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:258:	Local variable 'update_Warehouse' could be declared final
+src/SoftEng/Warehouse.java:258:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'update_Warehouse' is not final.
+src/SoftEng/Warehouse.java:259:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:260:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:265:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Warehouse.java:267:	System.out.println is used
+src/SoftEng/Warehouse.java:268:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:268:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:272:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:272:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:272:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:272:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:274:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:274:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:274:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:274:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:276:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:276:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:276:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:276:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:283:	Local variable 'lblName' could be declared final
+src/SoftEng/Warehouse.java:287:	Local variable 'lblSerial' could be declared final
+src/SoftEng/Warehouse.java:291:	Local variable 'lblID' could be declared final
+src/SoftEng/Warehouse.java:295:	Local variable 'lblPrice' could be declared final
+src/SoftEng/Warehouse.java:299:	Local variable 'lblSeller' could be declared final
+src/SoftEng/Warehouse.java:303:	Local variable 'lblWarehouse' could be declared final
+src/SoftEng/Warehouse.java:307:	Local variable 'lblBarcode' could be declared final
+src/SoftEng/Warehouse.java:343:	Found 'DD'-anomaly for variable 'connware' (lines '343'-'352').
+src/SoftEng/Warehouse.java:343:	Found 'DD'-anomaly for variable 'connware' (lines '343'-'352').
+src/SoftEng/Warehouse.java:343:	Found 'DD'-anomaly for variable 'connware' (lines '343'-'352').
+src/SoftEng/Warehouse.java:344:	Found 'DD'-anomaly for variable 'stmtware' (lines '344'-'353').
+src/SoftEng/Warehouse.java:344:	Found 'DD'-anomaly for variable 'stmtware' (lines '344'-'353').
+src/SoftEng/Warehouse.java:344:	Found 'DD'-anomaly for variable 'stmtware' (lines '344'-'353').
+src/SoftEng/Warehouse.java:345:	Found 'DD'-anomaly for variable 'rsware' (lines '345'-'354').
+src/SoftEng/Warehouse.java:345:	Found 'DD'-anomaly for variable 'rsware' (lines '345'-'354').
+src/SoftEng/Warehouse.java:345:	Found 'DD'-anomaly for variable 'rsware' (lines '345'-'354').
+src/SoftEng/Warehouse.java:349:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Warehouse.java:350:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Warehouse.java:351:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Warehouse.java:351:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Warehouse.java:359:	Parameter 'cw' is not assigned and could be declared final
+src/SoftEng/Warehouse.java:359:	publicMethodCommentRequirement Required
+src/SoftEng/Warehouse.java:360:	Found 'DD'-anomaly for variable 'connware2' (lines '360'-'368').
+src/SoftEng/Warehouse.java:360:	Found 'DD'-anomaly for variable 'connware2' (lines '360'-'368').
+src/SoftEng/Warehouse.java:360:	Found 'DD'-anomaly for variable 'connware2' (lines '360'-'368').
+src/SoftEng/Warehouse.java:361:	Found 'DD'-anomaly for variable 'stmtware2' (lines '361'-'369').
+src/SoftEng/Warehouse.java:361:	Found 'DD'-anomaly for variable 'stmtware2' (lines '361'-'369').
+src/SoftEng/Warehouse.java:361:	Found 'DD'-anomaly for variable 'stmtware2' (lines '361'-'369').
+src/SoftEng/Warehouse.java:362:	Found 'DD'-anomaly for variable 'rsware2' (lines '362'-'370').
+src/SoftEng/Warehouse.java:362:	Found 'DD'-anomaly for variable 'rsware2' (lines '362'-'370').
+src/SoftEng/Warehouse.java:364:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:365:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Warehouse.java:366:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Warehouse.java:367:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Warehouse.java:367:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Warehouse.java:369:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:370:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:371:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:372:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:375:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Warehouse.java:377:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:377:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:382:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:382:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:382:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:382:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:384:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:384:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:384:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:384:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:386:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:386:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:386:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:386:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:392:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Warehouse.java:394:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:400:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:400:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:402:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:402:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:404:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:404:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:409:	Local variable 'lblCount' could be declared final
+src/SoftEng/Warehouse.java:418:	Local variable 'btnSearch' could be declared final
+src/SoftEng/Warehouse.java:420:	Avoid variables with short names like s
+src/SoftEng/Warehouse.java:420:	Parameter 's' is not assigned and could be declared final
+src/SoftEng/Warehouse.java:420:	The method 'actionPerformed' has a Cyclomatic Complexity of 10.
+src/SoftEng/Warehouse.java:420:	The method 'actionPerformed' has a Modified Cyclomatic Complexity of 10.
+src/SoftEng/Warehouse.java:420:	The method 'actionPerformed' has a Standard Cyclomatic Complexity of 10.
+src/SoftEng/Warehouse.java:420:	publicMethodCommentRequirement Required
+src/SoftEng/Warehouse.java:421:	Found 'DD'-anomaly for variable 'connSrch' (lines '421'-'431').
+src/SoftEng/Warehouse.java:421:	Found 'DD'-anomaly for variable 'connSrch' (lines '421'-'431').
+src/SoftEng/Warehouse.java:422:	Found 'DD'-anomaly for variable 'stmtSrch' (lines '422'-'432').
+src/SoftEng/Warehouse.java:422:	Found 'DD'-anomaly for variable 'stmtSrch' (lines '422'-'432').
+src/SoftEng/Warehouse.java:423:	Found 'DD'-anomaly for variable 'rsSrch' (lines '423'-'433').
+src/SoftEng/Warehouse.java:423:	Found 'DD'-anomaly for variable 'rsSrch' (lines '423'-'433').
+src/SoftEng/Warehouse.java:424:	Local variable 'Srch_ID' could be declared final
+src/SoftEng/Warehouse.java:424:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'Srch_ID' is not final.
+src/SoftEng/Warehouse.java:424:	Variables should start with a lowercase character, 'Srch_ID' starts with uppercase character.
+src/SoftEng/Warehouse.java:427:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:428:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Warehouse.java:429:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Warehouse.java:430:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Warehouse.java:430:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Warehouse.java:432:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:433:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:435:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:436:	Local variable 'dbprodID' could be declared final
+src/SoftEng/Warehouse.java:436:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:438:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:440:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:441:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:442:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:443:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:444:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:445:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:446:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:452:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Warehouse.java:454:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:454:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:459:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:459:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:459:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:459:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:461:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:461:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:461:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:461:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:463:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:463:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:463:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:463:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:479:	Local variable 'lblVAT' could be declared final
+src/SoftEng/Warehouse.java:484:	Found 'DD'-anomaly for variable 'connvat' (lines '484'-'493').
+src/SoftEng/Warehouse.java:484:	Found 'DD'-anomaly for variable 'connvat' (lines '484'-'493').
+src/SoftEng/Warehouse.java:485:	Found 'DD'-anomaly for variable 'stmtvat' (lines '485'-'494').
+src/SoftEng/Warehouse.java:485:	Found 'DD'-anomaly for variable 'stmtvat' (lines '485'-'494').
+src/SoftEng/Warehouse.java:486:	Found 'DD'-anomaly for variable 'rsvat' (lines '486'-'495').
+src/SoftEng/Warehouse.java:486:	Found 'DD'-anomaly for variable 'rsvat' (lines '486'-'495').
+src/SoftEng/Warehouse.java:490:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Warehouse.java:491:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Warehouse.java:492:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Warehouse.java:492:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Warehouse.java:500:	Parameter 'vat' is not assigned and could be declared final
+src/SoftEng/Warehouse.java:500:	publicMethodCommentRequirement Required
+src/SoftEng/Warehouse.java:501:	Found 'DD'-anomaly for variable 'connvat2' (lines '501'-'509').
+src/SoftEng/Warehouse.java:501:	Found 'DD'-anomaly for variable 'connvat2' (lines '501'-'509').
+src/SoftEng/Warehouse.java:502:	Found 'DD'-anomaly for variable 'stmtvat2' (lines '502'-'510').
+src/SoftEng/Warehouse.java:502:	Found 'DD'-anomaly for variable 'stmtvat2' (lines '502'-'510').
+src/SoftEng/Warehouse.java:503:	Found 'DD'-anomaly for variable 'rsvat2' (lines '503'-'511').
+src/SoftEng/Warehouse.java:503:	Found 'DD'-anomaly for variable 'rsvat2' (lines '503'-'511').
+src/SoftEng/Warehouse.java:505:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/Warehouse.java:506:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Warehouse.java:507:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Warehouse.java:508:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Warehouse.java:508:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Warehouse.java:510:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:511:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:512:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:513:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:516:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Warehouse.java:517:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:517:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:520:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:520:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:520:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:520:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/Warehouse.java:526:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Warehouse.java:527:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:530:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:530:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:532:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:532:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:534:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:534:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:539:	Local variable 'scrollPane' could be declared final
+src/SoftEng/Warehouse.java:545:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Warehouse.java:545:	Use ArrayList instead of Vector
+src/SoftEng/Warehouse.java:546:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Warehouse.java:546:	Use ArrayList instead of Vector
+src/SoftEng/Warehouse.java:550:	Found 'DD'-anomaly for variable 'conn' (lines '552'-'561').
+src/SoftEng/Warehouse.java:550:	Found 'DD'-anomaly for variable 'conn' (lines '552'-'561').
+src/SoftEng/Warehouse.java:551:	Found 'DD'-anomaly for variable 'stmt' (lines '553'-'562').
+src/SoftEng/Warehouse.java:551:	Found 'DD'-anomaly for variable 'stmt' (lines '553'-'562').
+src/SoftEng/Warehouse.java:552:	Avoid variables with short names like rs
+src/SoftEng/Warehouse.java:552:	Found 'DD'-anomaly for variable 'rs' (lines '554'-'563').
+src/SoftEng/Warehouse.java:552:	Found 'DD'-anomaly for variable 'rs' (lines '554'-'563').
+src/SoftEng/Warehouse.java:556:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/Warehouse.java:557:	Local variable 'connectionUser' could be declared final
+src/SoftEng/Warehouse.java:558:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/Warehouse.java:558:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/Warehouse.java:562:	Avoid variables with short names like md
+src/SoftEng/Warehouse.java:562:	Local variable 'md' could be declared final
+src/SoftEng/Warehouse.java:564:	Local variable 'columns' could be declared final
+src/SoftEng/Warehouse.java:573:	Avoid instantiating new objects inside loops
+src/SoftEng/Warehouse.java:573:	Consider replacing this Vector with the newer java.util.List
+src/SoftEng/Warehouse.java:573:	Local variable 'row' could be declared final
+src/SoftEng/Warehouse.java:573:	Use ArrayList instead of Vector
+src/SoftEng/Warehouse.java:585:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/Warehouse.java:587:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:593:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:593:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:595:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:595:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:597:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/Warehouse.java:597:	Avoid using if statements without curly braces
+src/SoftEng/Warehouse.java:600:	Found 'DU'-anomaly for variable 'products' (lines '602'-'651').
+src/SoftEng/Warehouse.java:600:	Found 'DU'-anomaly for variable 'products' (lines '602'-'651').
+src/SoftEng/Warehouse.java:600:	Local variable 'products' could be declared final
+src/SoftEng/Warehouse.java:602:	Found 'DU'-anomaly for variable 'serialVersionUID' (lines '604'-'651').
+src/SoftEng/Warehouse.java:602:	Found 'DU'-anomaly for variable 'serialVersionUID' (lines '604'-'651').
+src/SoftEng/Warehouse.java:605:	Parameter 'column' is not assigned and could be declared final
+src/SoftEng/Warehouse.java:605:	publicMethodCommentRequirement Required
+src/SoftEng/Warehouse.java:607:	Avoid variables with short names like o
+src/SoftEng/Warehouse.java:610:	A method should have only one exit point, and that should be the last statement in the method
+src/SoftEng/Warehouse.java:610:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:1:	Package name contains upper case characters
+src/SoftEng/login.java:3:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/SoftEng/login.java:4:	Avoid unused imports such as 'java.awt.Component'
+src/SoftEng/login.java:11:	Avoid duplicate imports such as 'java.awt.BorderLayout'
+src/SoftEng/login.java:12:	Avoid duplicate imports such as 'java.awt.EventQueue'
+src/SoftEng/login.java:15:	Avoid unused imports such as 'javax.swing.ImageIcon'
+src/SoftEng/login.java:18:	Avoid unused imports such as 'java.awt.Toolkit'
+src/SoftEng/login.java:20:	Avoid unused imports such as 'javax.swing.UIManager'
+src/SoftEng/login.java:22:	Avoid unused imports such as 'java.awt.Dialog'
+src/SoftEng/login.java:31:	Avoid unused imports such as 'javax.swing.JComponent'
+src/SoftEng/login.java:33:	Avoid duplicate imports such as 'javax.swing.JOptionPane'
+src/SoftEng/login.java:40:	Class names should begin with an uppercase character
+src/SoftEng/login.java:40:	The class 'login' has a Cyclomatic Complexity of 10 (Highest = 15).
+src/SoftEng/login.java:40:	The class 'login' has a Modified Cyclomatic Complexity of 9 (Highest = 14).
+src/SoftEng/login.java:40:	The class 'login' has a Standard Cyclomatic Complexity of 9 (Highest = 14).
+src/SoftEng/login.java:40:	headerCommentRequirement Required
+src/SoftEng/login.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/login.java:43:	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/login.java:43:	fieldCommentRequirement Required
+src/SoftEng/login.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/login.java:45:	Private field 'username' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/login.java:45:	fieldCommentRequirement Required
+src/SoftEng/login.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/login.java:47:	Private field 'password' could be made final; it is only initialized in the declaration or constructor.
+src/SoftEng/login.java:47:	fieldCommentRequirement Required
+src/SoftEng/login.java:48:	Avoid using redundant field initializer for 'login'
+src/SoftEng/login.java:48:	It is somewhat confusing to have a field name matching the declaring class name
+src/SoftEng/login.java:48:	Use explicit scoping instead of the default package private level
+src/SoftEng/login.java:48:	fieldCommentRequirement Required
+src/SoftEng/login.java:49:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/login.java:49:	fieldCommentRequirement Required
+src/SoftEng/login.java:50:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/SoftEng/login.java:50:	fieldCommentRequirement Required
+src/SoftEng/login.java:51:	Avoid using redundant field initializer for 'checked'
+src/SoftEng/login.java:51:	Use explicit scoping instead of the default package private level
+src/SoftEng/login.java:51:	fieldCommentRequirement Required
+src/SoftEng/login.java:54:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/SoftEng/login.java:54:	Parameter 'args' is not assigned and could be declared final
+src/SoftEng/login.java:55:	To be compliant to J2EE, a webapp should not use any thread.
+src/SoftEng/login.java:56:	publicMethodCommentRequirement Required
+src/SoftEng/login.java:58:	Local variable 'frame' could be declared final
+src/SoftEng/login.java:60:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/login.java:61:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/login.java:68:	It is a good practice to call super() in a constructor
+src/SoftEng/login.java:68:	The constructor 'login' has a Cyclomatic Complexity of 15.
+src/SoftEng/login.java:68:	The constructor 'login' has a Modified Cyclomatic Complexity of 14.
+src/SoftEng/login.java:68:	The constructor 'login' has a Standard Cyclomatic Complexity of 14.
+src/SoftEng/login.java:83:	Local variable 'lblNewLabel' could be declared final
+src/SoftEng/login.java:88:	Local variable 'lblNewLabel_1' could be declared final
+src/SoftEng/login.java:88:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lblNewLabel_1' is not final.
+src/SoftEng/login.java:102:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/login.java:102:	The method 'actionPerformed' has a Cyclomatic Complexity of 13.
+src/SoftEng/login.java:102:	The method 'actionPerformed' has a Modified Cyclomatic Complexity of 12.
+src/SoftEng/login.java:102:	The method 'actionPerformed' has a Standard Cyclomatic Complexity of 12.
+src/SoftEng/login.java:102:	publicMethodCommentRequirement Required
+src/SoftEng/login.java:103:	Found 'DD'-anomaly for variable 'conn' (lines '103'-'111').
+src/SoftEng/login.java:103:	Found 'DD'-anomaly for variable 'conn' (lines '103'-'111').
+src/SoftEng/login.java:104:	Found 'DD'-anomaly for variable 'stmt' (lines '104'-'112').
+src/SoftEng/login.java:104:	Found 'DD'-anomaly for variable 'stmt' (lines '104'-'112').
+src/SoftEng/login.java:105:	Avoid variables with short names like rs
+src/SoftEng/login.java:105:	Found 'DD'-anomaly for variable 'rs' (lines '105'-'113').
+src/SoftEng/login.java:105:	Found 'DD'-anomaly for variable 'rs' (lines '105'-'113').
+src/SoftEng/login.java:107:	Potential violation of Law of Demeter (method chain calls)
+src/SoftEng/login.java:108:	Local variable 'connectionUrl' could be declared final
+src/SoftEng/login.java:109:	Local variable 'connectionUser' could be declared final
+src/SoftEng/login.java:110:	Avoid excessively long variable names like connectionPassword
+src/SoftEng/login.java:110:	Local variable 'connectionPassword' could be declared final
+src/SoftEng/login.java:112:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:113:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:115:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:116:	Local variable 'dbUsername' could be declared final
+src/SoftEng/login.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:117:	Local variable 'dbPassword' could be declared final
+src/SoftEng/login.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:118:	Found 'DD'-anomaly for variable 'dbID' (lines '118'-'118').
+src/SoftEng/login.java:118:	Found 'DD'-anomaly for variable 'dbID' (lines '118'-'118').
+src/SoftEng/login.java:118:	Found 'DU'-anomaly for variable 'dbID' (lines '118'-'189').
+src/SoftEng/login.java:118:	Found 'DU'-anomaly for variable 'dbID' (lines '118'-'189').
+src/SoftEng/login.java:118:	Local variable 'dbID' could be declared final
+src/SoftEng/login.java:118:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:119:	Found 'DD'-anomaly for variable 'dbLevel' (lines '119'-'119').
+src/SoftEng/login.java:119:	Found 'DD'-anomaly for variable 'dbLevel' (lines '119'-'119').
+src/SoftEng/login.java:119:	Found 'DU'-anomaly for variable 'dbLevel' (lines '119'-'189').
+src/SoftEng/login.java:119:	Found 'DU'-anomaly for variable 'dbLevel' (lines '119'-'189').
+src/SoftEng/login.java:119:	Local variable 'dbLevel' could be declared final
+src/SoftEng/login.java:119:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:122:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:122:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:126:	Avoid using Literals in Conditional Statements
+src/SoftEng/login.java:139:	Avoid unnecessary comparisons in boolean expressions
+src/SoftEng/login.java:149:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/SoftEng/login.java:150:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/login.java:150:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:153:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/login.java:153:	Avoid using if statements without curly braces
+src/SoftEng/login.java:153:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:153:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:155:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/login.java:155:	Avoid using if statements without curly braces
+src/SoftEng/login.java:155:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:155:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:157:	Avoid printStackTrace(); use a logger call instead.
+src/SoftEng/login.java:157:	Avoid using if statements without curly braces
+src/SoftEng/login.java:157:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:157:	Potential violation of Law of Demeter (object not created locally)
+src/SoftEng/login.java:171:	Local variable 'ExitButton' could be declared final
+src/SoftEng/login.java:171:	Variables should start with a lowercase character, 'ExitButton' starts with uppercase character.
+src/SoftEng/login.java:173:	Parameter 'arg0' is not assigned and could be declared final
+src/SoftEng/login.java:173:	publicMethodCommentRequirement Required
+src/SoftEng/login.java:174:	System.exit() should not be used in J2EE/JEE apps
+src/SoftEng/login.java:185:	Local variable 'lblV' could be declared final
+test/SoftEng/BuildingsTest.java:1:	Package name contains upper case characters
+test/SoftEng/BuildingsTest.java:8:	headerCommentRequirement Required
+test/SoftEng/BuildingsTest.java:11:	publicMethodCommentRequirement Required
+test/SoftEng/BuildingsTest.java:12:	Local variable 'tester' could be declared final
+test/SoftEng/BuildingsTest.java:13:	Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x).
+test/SoftEng/BuildingsTest.java:17:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/BuildingsTest.java:18:	publicMethodCommentRequirement Required
+test/SoftEng/BuildingsTest.java:19:	System.out.println is used
+test/SoftEng/BuildingsTest.java:22:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/BuildingsTest.java:23:	publicMethodCommentRequirement Required
+test/SoftEng/BuildingsTest.java:24:	System.out.println is used
+test/SoftEng/CustomersTest.java:1:	Package name contains upper case characters
+test/SoftEng/CustomersTest.java:9:	headerCommentRequirement Required
+test/SoftEng/CustomersTest.java:12:	publicMethodCommentRequirement Required
+test/SoftEng/CustomersTest.java:13:	Local variable 'tester' could be declared final
+test/SoftEng/CustomersTest.java:14:	Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x).
+test/SoftEng/CustomersTest.java:18:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/CustomersTest.java:19:	publicMethodCommentRequirement Required
+test/SoftEng/CustomersTest.java:20:	System.out.println is used
+test/SoftEng/CustomersTest.java:23:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/CustomersTest.java:24:	publicMethodCommentRequirement Required
+test/SoftEng/CustomersTest.java:25:	System.out.println is used
+test/SoftEng/EmployeeStoreTest.java:1:	Package name contains upper case characters
+test/SoftEng/EmployeeStoreTest.java:9:	headerCommentRequirement Required
+test/SoftEng/EmployeeStoreTest.java:11:	publicMethodCommentRequirement Required
+test/SoftEng/EmployeeStoreTest.java:12:	Local variable 'tester' could be declared final
+test/SoftEng/EmployeeStoreTest.java:13:	Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x).
+test/SoftEng/EmployeeStoreTest.java:17:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/EmployeeStoreTest.java:18:	publicMethodCommentRequirement Required
+test/SoftEng/EmployeeStoreTest.java:19:	System.out.println is used
+test/SoftEng/EmployeeStoreTest.java:22:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/EmployeeStoreTest.java:23:	publicMethodCommentRequirement Required
+test/SoftEng/EmployeeStoreTest.java:24:	System.out.println is used
+test/SoftEng/LoginTest.java:1:	Package name contains upper case characters
+test/SoftEng/LoginTest.java:9:	headerCommentRequirement Required
+test/SoftEng/LoginTest.java:12:	publicMethodCommentRequirement Required
+test/SoftEng/LoginTest.java:13:	Local variable 'tester' could be declared final
+test/SoftEng/LoginTest.java:14:	Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x).
+test/SoftEng/LoginTest.java:18:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/LoginTest.java:19:	publicMethodCommentRequirement Required
+test/SoftEng/LoginTest.java:20:	System.out.println is used
+test/SoftEng/LoginTest.java:23:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/LoginTest.java:24:	publicMethodCommentRequirement Required
+test/SoftEng/LoginTest.java:25:	System.out.println is used
+test/SoftEng/StockTest.java:1:	Package name contains upper case characters
+test/SoftEng/StockTest.java:9:	headerCommentRequirement Required
+test/SoftEng/StockTest.java:12:	publicMethodCommentRequirement Required
+test/SoftEng/StockTest.java:13:	Local variable 'tester' could be declared final
+test/SoftEng/StockTest.java:14:	Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x).
+test/SoftEng/StockTest.java:18:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/StockTest.java:19:	publicMethodCommentRequirement Required
+test/SoftEng/StockTest.java:20:	System.out.println is used
+test/SoftEng/StockTest.java:23:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/StockTest.java:24:	publicMethodCommentRequirement Required
+test/SoftEng/StockTest.java:25:	System.out.println is used
+test/SoftEng/StoreTest.java:1:	Package name contains upper case characters
+test/SoftEng/StoreTest.java:9:	headerCommentRequirement Required
+test/SoftEng/StoreTest.java:12:	publicMethodCommentRequirement Required
+test/SoftEng/StoreTest.java:13:	Local variable 'tester' could be declared final
+test/SoftEng/StoreTest.java:14:	Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x).
+test/SoftEng/StoreTest.java:18:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/StoreTest.java:19:	publicMethodCommentRequirement Required
+test/SoftEng/StoreTest.java:20:	System.out.println is used
+test/SoftEng/StoreTest.java:23:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/StoreTest.java:24:	publicMethodCommentRequirement Required
+test/SoftEng/StoreTest.java:25:	System.out.println is used
+test/SoftEng/UsersTest.java:1:	Package name contains upper case characters
+test/SoftEng/UsersTest.java:9:	headerCommentRequirement Required
+test/SoftEng/UsersTest.java:11:	publicMethodCommentRequirement Required
+test/SoftEng/UsersTest.java:12:	Local variable 'tester' could be declared final
+test/SoftEng/UsersTest.java:13:	Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x).
+test/SoftEng/UsersTest.java:17:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/UsersTest.java:18:	publicMethodCommentRequirement Required
+test/SoftEng/UsersTest.java:19:	System.out.println is used
+test/SoftEng/UsersTest.java:22:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/UsersTest.java:23:	publicMethodCommentRequirement Required
+test/SoftEng/UsersTest.java:24:	System.out.println is used
+test/SoftEng/WarehouseTest.java:1:	Package name contains upper case characters
+test/SoftEng/WarehouseTest.java:9:	headerCommentRequirement Required
+test/SoftEng/WarehouseTest.java:12:	publicMethodCommentRequirement Required
+test/SoftEng/WarehouseTest.java:13:	Local variable 'tester' could be declared final
+test/SoftEng/WarehouseTest.java:14:	Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x).
+test/SoftEng/WarehouseTest.java:18:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/WarehouseTest.java:19:	publicMethodCommentRequirement Required
+test/SoftEng/WarehouseTest.java:20:	System.out.println is used
+test/SoftEng/WarehouseTest.java:23:	JUnit 4 tests that execute tests should use the @Test annotation
+test/SoftEng/WarehouseTest.java:24:	publicMethodCommentRequirement Required
+test/SoftEng/WarehouseTest.java:25:	System.out.println is used
